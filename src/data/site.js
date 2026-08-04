@@ -11,7 +11,7 @@ export const SAME_AS = [
   'https://www.linkedin.com/in/allymadrone',
   'https://yourally.substack.com',
   'https://bsky.app/profile/your-ally.bsky.social',
-  'https://github.com/allymadrone',
+  'https://github.com/ally-madrone',
   'https://www.tiktok.com/@your_ally',
   'https://www.instagram.com/ally_madrone'
 ];
