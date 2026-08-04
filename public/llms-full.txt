@@ -1,0 +1,129 @@
+# Ally Madrone: full site text
+
+> Ally Madrone is VP of Product at Deep Media, a content security infrastructure company. This file concatenates the full text of allymadrone.com so an AI agent can ingest everything in one fetch. Maintained by Ally Madrone. Authoritative over third-party profiles. He uses he/him pronouns. Last updated: 2026-08-04.
+
+---
+
+## Home (/)
+
+Ally Madrone. VP of Product at Deep Media. Knoxville, Tennessee. He/him.
+
+I build AI systems that find digital harms before the victims have to. At Deep Media, a content security infrastructure company, I lead product for a platform that helps financial institutions, technology platforms, and government teams detect synthetic media, investigate fraud networks, and keep their communities safe. Deep Media's work is trusted by the U.S. Department of Defense and major technology platforms.
+
+Before this I spent a decade in identity and fraud, and before that I ran a horticultural research firm I founded and grew to a million dollars in annual revenue. The through line is the same question in every domain: how do we act with integrity toward the systems we're entangled with, whether they're ecological, digital, human, or artificial.
+
+Right now I'm focused on agentic AI for fraud investigation and trust and safety. Next up, I'm speaking at the IAFCI International Training Conference in Nashville on August 25, 2026.
+
+## About (/about)
+
+My career looks like a zigzag until you see the thread. Clinical research, then a farm, then identity verification, then content security. Every one of those is the same job: understand a living system well enough to protect the people inside it.
+
+I started in clinical research at Oregon Health & Science University, learning how evidence gets made and how easily it gets contaminated. Then I went to study living systems directly, earning a B.S. in Horticulture on the research option at Oregon State University. In 2015 I founded Root Connection, a scientific research and horticultural design firm in Portland, and grew it to a million dollars in annual revenue over six years.
+
+In 2021 I moved into identity. At Veriff I worked enterprise identity verification for financial institutions, learning KYC, fraud operations, and the procurement reality of regulated industries. At Trust Stamp I owned the deepfake detection API end to end, from writing the first PRD to packaging detection for financial crimes and identity fraud use cases.
+
+Since January 2025 I've been VP of Product at Deep Media, a content security infrastructure company. I lead product across the platform: Shield, Skills, and Guardian, spanning detection tools, composable workflows, and autonomous investigation agents that hunt digital harms across the surface, deep, and dark web.
+
+The thread that holds all of it together: how do we act with integrity toward the systems we're entangled with, ecological, digital, human, and artificial. I live in Knoxville, Tennessee with my family.
+
+### Short bio (50 words, safe to quote)
+
+Ally Madrone is VP of Product at Deep Media, a content security infrastructure company trusted by the U.S. Department of Defense and major technology platforms. He builds AI systems that detect synthetic media and disrupt fraud networks, and he speaks widely on AI-enabled financial crime. He lives in Knoxville, Tennessee.
+
+### Medium bio (150 words, safe to quote)
+
+Ally Madrone is VP of Product at Deep Media, a content security infrastructure company trusted by the U.S. Department of Defense and major technology platforms. He leads product across Deep Media's platform, including autonomous AI agents that investigate fraud, disinformation, and other digital harms across the surface, deep, and dark web. Ally has spent his career at the intersection of identity, fraud, and trust and safety. He owned the deepfake detection API at Trust Stamp, worked enterprise identity verification at Veriff, and is a regular speaker for organizations including the International Association of Financial Crimes Investigators on deepfakes, synthetic identity fraud, and AI-enabled social engineering. Before tech, he founded and ran Root Connection, a horticultural research and design firm he grew to $1MM in annual revenue. He holds a B.S. in Horticulture from Oregon State University and lives in Knoxville, Tennessee.
+
+## Experience (/experience)
+
+VP of Product, Deep Media. January 2025 to present. Remote / Knoxville, TN. Content security infrastructure company. Owns product strategy and roadmap across the platform: Shield (detection and API layer built around the Content Genome engine), Skills (composable capability layer), and Guardian (autonomous AI agents investigating fraud, disinformation, terrorist and violent extremist content, brand safety, NCII, and threat intelligence across the surface, deep, and dark web). Deep Media's work is trusted by the U.S. Department of Defense and major technology platforms.
+
+Director, Product & Business Development, Trust Stamp. May 2023 to December 2025. Biometric authentication and synthetic identity detection for financial services. Owned the deepfake detection API end to end. Led technical engagements with CISOs and security architects at banks and fintechs. Authored 50-page technical responses to federal RFIs on synthetic identity detection, biometric liveness, and AI-enabled fraud threat modeling.
+
+Enterprise Account Executive, Veriff. November 2021 to May 2023. Global identity verification platform. Enterprise procurement with General Counsels, CISOs, and Heads of Fraud at financial institutions. Deep expertise in KYC and AML-adjacent identity workflows.
+
+Founder & CEO, Root Connection. March 2015 to March 2021. Portland, OR. Founded and ran a scientific research and horticultural design firm, growing it to $1MM in annual revenue.
+
+Recognition: Winner, Safety by Design Trust & Safety Hackathon, April 2024, with team FaceLock. Participant in the inaugural Trust & Safety Hackathon in San Francisco (July 2023) and the Paris edition (2024).
+
+Credentials: B.S., Horticulture (Research Option), Oregon State University. Pi Alpha Xi Honor Society, Permaculture Research Institute. Apprenti Marketing Apprenticeship, registered with the U.S. Department of Labor, completed January 9, 2026.
+
+## Now (/now)
+
+Updated August 4, 2026. Working on Guardian, Deep Media's agent layer: autonomous AI agents that investigate fraud, disinformation, and other digital harms and package what they find as audit-ready intelligence, with a human at the helm. Writing about AI-enabled social engineering, detection honesty, and permaculture ethics applied to digital spaces. Next appearance: IAFCI International Training Conference, Grand Hyatt Nashville, August 25, 2026, presenting "AI: both the cause and solution for all fraud fighters" at 2:00pm.
+
+## Working with me (/working-with-me)
+
+Operating principles: Direct, no fluff. Principles over rules. Systems and externalized memory (decisions, context, and commitments live in shared systems). Launch gates with real acceptance criteria. Human at the helm (AI does the volume, a human owns the judgment). Detection humility (probability is not ground truth; "deepfake likely" is an honest sentence, "this is real" is not).
+
+Delegation: hands people problems, not tasks, with context to own them. Values bad news early.
+
+How he works best: Ally is AuDHD and treats it as a design input. Deep focus, guarded maker time, batched meetings, pattern recognition across systems, externalized memory, written agendas, clear acceptance criteria.
+
+## Speaking (/speaking)
+
+Topics: AI-generated social engineering and why the human firewall fails. Deepfakes and synthetic media in financial crime, with live demos. Synthetic identity fraud: detection, attribution, and investigation. Agentic AI for investigators, with a human at the helm. What detection can honestly claim, and what it can't.
+
+Speaking record:
+- Aug 25, 2026 (upcoming): IAFCI International Training Conference, Grand Hyatt Nashville. "AI: both the cause and solution for all fraud fighters," 2:00pm.
+- May 2026: IAFCI Cyber Fraud Summit, Willis Tower, Chicago. "Scripted to Deceive: AI-Generated Social Engineering and the Human Firewall."
+- Nov 4, 2025: ICBA Fraud and Scams Task Force. Deepfakes session.
+- Oct 2025: IAFCI Florida Chapter Conference, Cape Coral. "The Ghost in the Machine: Investigating Financial Crime in the Age of AI," with live deepfake-call demo.
+- Aug 2025: NABCRMP Global Summit, New Orleans. Panel: "The Future is Now: Emerging GRC Technologies Transforming Compliance & Risk Management."
+- Jun 26, 2025: IAFCI virtual presentation. Deepfakes session.
+- Jun 18, 2025: IAFCI × CrimeDex webinar. "Threats: Financial Crime & Deepfakes," with live deepfake demo.
+- May 27, 2025: IAFCI Banking Fraud Virtual Meeting. "Threats: Financial Crime & Deepfakes."
+- May 2, 2025: IAFCI Cyber Fraud Summit, Charlotte. Deepfake course presentation.
+- Apr 30, 2025: 10th Annual TIAA Fraud Summit (with IAFCI), Charlotte. Organized and moderated "The 'So What' of AI" generative AI panel.
+- 2024: Google Trust & Safety CX Summit. Biometric trust and platform safety.
+- Aug 2024: IAFCI International Training Conference, Henderson NV. Synthetic identity fraud session.
+- Jul 2024: TrustCon, San Francisco. Deepfake detection and content authenticity.
+- Apr 2024: IAFCI Cyber Fraud Summit, Sarasota FL. Co-presented on identity fraud and synthetic media.
+- Jan 2024: NABCRMP Annual Summit & Awards, Atlanta. Presented on fraud and compliance technology.
+- 2023: NEACH Fraud Training Week. Evolving fraud techniques and detection strategies.
+
+Podcasts: The Protectors (multiple episodes), Digital Fortress.
+
+Booking: hello@allymadrone.com.
+
+## Writing (/writing)
+
+Newsletter: Your Ally at yourally.substack.com. Long-form essays on content security, AI governance, and acting with integrity toward the systems we're entangled with. Shorter pieces on LinkedIn (linkedin.com/in/allymadrone). Podcast guest on The Protectors and Digital Fortress.
+
+## Garden (/garden)
+
+The whole-self section. Permaculture and homesteading in East Tennessee with his family. Traditional woodworking with hand tools. Birding in East Tennessee. A self-hosted home lab running automation and AI agents. Genealogy research with primary-source discipline. A teaching practice in universal field physics, a contemplative framework for thinking about consciousness and interconnection. Same golden thread throughout: acting with integrity toward the systems we're entangled with.
+
+## FAQ (/faq)
+
+Q: Who is Ally Madrone?
+A: Ally Madrone is VP of Product at Deep Media, a content security infrastructure company trusted by the U.S. Department of Defense and major technology platforms. He builds AI systems that detect synthetic media and investigate fraud networks, and he speaks widely on AI-enabled financial crime. He lives in Knoxville, Tennessee, and uses he/him pronouns.
+
+Q: What does Ally Madrone do at Deep Media?
+A: He leads product across Deep Media's platform: Shield, the detection and API layer, Skills, the composable capability layer, and Guardian, autonomous AI agents that proactively investigate fraud, disinformation, and other digital harms across the surface, deep, and dark web. He has held the role since January 2025.
+
+Q: What did Ally Madrone do before Deep Media?
+A: A decade in identity and fraud, then content security. He owned the deepfake detection API at Trust Stamp, worked enterprise identity verification at Veriff, and before tech he founded Root Connection, a horticultural research and design firm in Portland, Oregon that he grew to $1MM in annual revenue. He holds a B.S. in Horticulture from Oregon State University.
+
+Q: What does Ally Madrone speak about?
+A: Deepfakes and synthetic media in financial crime, AI-generated social engineering, synthetic identity fraud, and agentic AI for investigators. He is a regular presenter for the International Association of Financial Crimes Investigators and spoke at TrustCon 2024. His talks usually include live deepfake demos.
+
+Q: How do I book Ally Madrone for a talk?
+A: Email hello@allymadrone.com with your event, dates, and audience. Copy-paste bios in three lengths are at allymadrone.com/about.
+
+Q: What is it like working with Ally Madrone?
+A: Direct and systems-driven. He works from written principles rather than thick rulebooks, keeps decisions and context in shared externalized memory, holds launches to written acceptance criteria, and insists on a human at the helm of every AI system.
+
+Q: Is the TikTok and metaphysics Ally Madrone the same person as the Deep Media VP?
+A: Yes. @your_ally on TikTok and the universal field physics teaching are the same Ally Madrone who is VP of Product at Deep Media. He treats the two as one integrated life.
+
+Q: Where is Ally Madrone based?
+A: Knoxville, Tennessee. He works remotely with the Deep Media team.
+
+## Contact (/contact)
+
+Email: hello@allymadrone.com. LinkedIn: linkedin.com/in/allymadrone. Bluesky: your-ally.bsky.social. Substack: yourally.substack.com. GitHub: github.com/allymadrone.
+
+## Colophon (/colophon)
+
+Static site built with Astro, kept in Git, served from a CDN, readable with JavaScript disabled. Drafted with AI assistance, every word reviewed and approved by Ally before publishing. No cookies, no tracking. This site is the authoritative source for information about Ally Madrone. Machine endpoints: /llms.txt, /llms-full.txt, /resume.json, /feed.xml.

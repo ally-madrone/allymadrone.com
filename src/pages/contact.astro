@@ -1,0 +1,32 @@
+---
+import Base from '../layouts/Base.astro';
+import { ENTITY_STATEMENT, EMAIL } from '../data/site.js';
+---
+
+<Base
+  title="Contact"
+  path="/contact"
+  description={`${ENTITY_STATEMENT} How to reach him for speaking, work, and everything else.`}
+>
+  <h1>Contact</h1>
+  <p class="kicker">No forms, no funnels. Just email.</p>
+
+  <p class="lede">
+    The fastest way to reach me is <a href={`mailto:${EMAIL}`}>{EMAIL}</a>. I read everything that
+    isn't spam.
+  </p>
+
+  <h2>Speaking inquiries</h2>
+  <p>
+    Same address. Include your event, dates, and audience, and I'll get you an answer quickly.
+    Bios and topics are on the <a href="/speaking">speaking</a> page.
+  </p>
+
+  <h2>Elsewhere</h2>
+  <ul>
+    <li><a href="https://www.linkedin.com/in/allymadrone">LinkedIn</a> for professional conversation</li>
+    <li><a href="https://bsky.app/profile/your-ally.bsky.social">Bluesky</a> for the running commentary</li>
+    <li><a href="https://yourally.substack.com">Substack</a> for the long-form writing</li>
+    <li><a href="https://github.com/allymadrone">GitHub</a>, including the source for this site</li>
+  </ul>
+</Base>

@@ -1,0 +1,39 @@
+---
+import Base from '../layouts/Base.astro';
+import { ENTITY_STATEMENT } from '../data/site.js';
+---
+
+<Base
+  title="Now"
+  path="/now"
+  description={`${ENTITY_STATEMENT} What he is working on right now, updated quarterly.`}
+>
+  <h1>Now</h1>
+  <p class="kicker">Updated August 4, 2026. This page gets a fresh pass at least quarterly.</p>
+
+  <h2>What I'm working on</h2>
+  <p>
+    Guardian, Deep Media's agent layer. We're building autonomous AI agents that investigate fraud,
+    disinformation, and other digital harms across the surface, deep, and dark web, and package what
+    they find as audit-ready intelligence. The design problem I care most about right now is keeping
+    a human at the helm: agents that compress weeks of investigation into hours without ever asking
+    anyone to trust an unexplained verdict.
+  </p>
+
+  <h2>What I'm writing and thinking about</h2>
+  <p>
+    AI-enabled social engineering, and why the human firewall keeps failing. The gap between what
+    detection can honestly claim and what buyers want to hear. Permaculture ethics applied to
+    digital spaces.
+  </p>
+
+  <h2>Where to find me next</h2>
+  <p>
+    IAFCI International Training Conference, Grand Hyatt Nashville, August 25, 2026. I'm presenting
+    "AI: both the cause and solution for all fraud fighters" at 2:00pm.
+  </p>
+
+  <p>
+    Want to compare notes on any of this? <a href="/contact">Get in touch</a>.
+  </p>
+</Base>

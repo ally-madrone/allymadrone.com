@@ -1,0 +1,297 @@
+/* Warm, light by default, organic-meets-systems. Zero JS required to read anything. */
+:root {
+  --bg: #faf7f0;
+  --bg-raised: #f3eee2;
+  --ink: #26291f;
+  --muted: #5f6555;
+  --accent: #35603f;
+  --accent-warm: #9a4f27;
+  --rule: #e2dcca;
+  color-scheme: light dark;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #191b16;
+    --bg-raised: #22251e;
+    --ink: #e9e5d8;
+    --muted: #a5ab97;
+    --accent: #93c29e;
+    --accent-warm: #dda577;
+    --rule: #33372c;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: Charter, 'Iowan Old Style', Georgia, 'Times New Roman', serif;
+  font-size: 1.125rem;
+  line-height: 1.65;
+}
+
+.wrap {
+  max-width: 44rem;
+  margin: 0 auto;
+  padding: 0 1.25rem;
+}
+
+.skip-link {
+  position: absolute;
+  left: -9999px;
+  top: 0;
+  background: var(--accent);
+  color: var(--bg);
+  padding: 0.5rem 1rem;
+}
+
+.skip-link:focus {
+  left: 0.5rem;
+  top: 0.5rem;
+  z-index: 10;
+}
+
+header.site {
+  border-bottom: 1px solid var(--rule);
+  padding: 1.1rem 0;
+}
+
+header.site .wrap,
+footer.site .wrap {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem 1.1rem;
+  align-items: baseline;
+}
+
+.brand {
+  font-weight: 700;
+  font-size: 1.05rem;
+  text-decoration: none;
+  color: var(--ink);
+  margin-right: auto;
+  letter-spacing: 0.01em;
+}
+
+nav.primary {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.2rem 1rem;
+  font-family: system-ui, -apple-system, 'Segoe UI', sans-serif;
+  font-size: 0.92rem;
+}
+
+nav.primary a {
+  color: var(--muted);
+  text-decoration: none;
+  padding: 0.15rem 0;
+}
+
+nav.primary a[aria-current='page'] {
+  color: var(--accent);
+  border-bottom: 2px solid var(--accent);
+}
+
+nav.primary a:hover,
+nav.primary a:focus {
+  color: var(--accent);
+}
+
+main {
+  padding: 2.5rem 0 3.5rem;
+}
+
+h1,
+h2,
+h3 {
+  font-family: system-ui, -apple-system, 'Segoe UI', sans-serif;
+  line-height: 1.25;
+  letter-spacing: -0.01em;
+}
+
+h1 {
+  font-size: 2rem;
+  margin: 0 0 0.4rem;
+}
+
+h2 {
+  font-size: 1.35rem;
+  margin: 2.4rem 0 0.6rem;
+}
+
+h3 {
+  font-size: 1.05rem;
+  margin: 1.6rem 0 0.4rem;
+}
+
+p {
+  margin: 0 0 1.1rem;
+}
+
+a {
+  color: var(--accent);
+  text-underline-offset: 3px;
+}
+
+a:hover {
+  color: var(--accent-warm);
+}
+
+.kicker {
+  font-family: system-ui, -apple-system, 'Segoe UI', sans-serif;
+  font-size: 0.92rem;
+  color: var(--muted);
+  margin: 0 0 1.6rem;
+}
+
+.lede {
+  font-size: 1.22rem;
+}
+
+ul,
+ol {
+  padding-left: 1.3rem;
+  margin: 0 0 1.1rem;
+}
+
+li {
+  margin-bottom: 0.35rem;
+}
+
+blockquote {
+  margin: 1.2rem 0;
+  padding: 0.2rem 0 0.2rem 1.1rem;
+  border-left: 3px solid var(--accent);
+  color: var(--muted);
+}
+
+.doors {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(11rem, 1fr));
+  gap: 0.9rem;
+  margin: 1.8rem 0;
+  padding: 0;
+  list-style: none;
+}
+
+.doors li {
+  margin: 0;
+}
+
+.doors a {
+  display: block;
+  height: 100%;
+  padding: 1rem 1.1rem;
+  border: 1px solid var(--rule);
+  border-radius: 10px;
+  background: var(--bg-raised);
+  text-decoration: none;
+  color: var(--ink);
+}
+
+.doors a:hover {
+  border-color: var(--accent);
+}
+
+.doors strong {
+  display: block;
+  font-family: system-ui, -apple-system, 'Segoe UI', sans-serif;
+  color: var(--accent);
+  margin-bottom: 0.25rem;
+}
+
+.doors span {
+  font-size: 0.95rem;
+  color: var(--muted);
+}
+
+dl.record div {
+  padding: 0.85rem 0;
+  border-bottom: 1px solid var(--rule);
+}
+
+dl.record dt {
+  font-family: system-ui, -apple-system, 'Segoe UI', sans-serif;
+  font-weight: 600;
+}
+
+dl.record dd {
+  margin: 0.15rem 0 0;
+  color: var(--muted);
+}
+
+.datestamp {
+  font-family: system-ui, -apple-system, 'Segoe UI', sans-serif;
+  font-size: 0.88rem;
+  color: var(--muted);
+}
+
+.bio-block {
+  border: 1px solid var(--rule);
+  border-radius: 10px;
+  background: var(--bg-raised);
+  padding: 1.1rem 1.2rem;
+  margin: 0 0 1.2rem;
+}
+
+.bio-block h3 {
+  margin-top: 0;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.98rem;
+  margin: 0 0 1.2rem;
+}
+
+th,
+td {
+  text-align: left;
+  vertical-align: top;
+  padding: 0.5rem 0.7rem 0.5rem 0;
+  border-bottom: 1px solid var(--rule);
+}
+
+th {
+  font-family: system-ui, -apple-system, 'Segoe UI', sans-serif;
+  font-size: 0.88rem;
+  color: var(--muted);
+}
+
+.table-scroll {
+  overflow-x: auto;
+}
+
+footer.site {
+  border-top: 1px solid var(--rule);
+  padding: 1.3rem 0 2.2rem;
+  font-family: system-ui, -apple-system, 'Segoe UI', sans-serif;
+  font-size: 0.88rem;
+  color: var(--muted);
+}
+
+footer.site a {
+  color: var(--muted);
+}
+
+footer.site .wrap {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.5rem;
+}
+
+footer.site nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem 1rem;
+}

@@ -1,0 +1,91 @@
+---
+import '../styles/global.css';
+import {
+  SITE_URL,
+  NAME,
+  ENTITY_STATEMENT,
+  HEADSHOT,
+  LAST_UPDATED,
+  NAV,
+  FOOTER_NAV,
+  PERSON_JSONLD
+} from '../data/site.js';
+
+const {
+  title,
+  description = ENTITY_STATEMENT,
+  path = '/',
+  extraSchema = null,
+  updated = LAST_UPDATED
+} = Astro.props;
+
+const canonical = path === '/' ? SITE_URL : `${SITE_URL}${path}`;
+const graph = [PERSON_JSONLD];
+if (extraSchema) graph.push(...(Array.isArray(extraSchema) ? extraSchema : [extraSchema]));
+const jsonld = { '@context': 'https://schema.org', '@graph': graph };
+const pageTitle = path === '/' ? `${NAME}: VP of Product at Deep Media` : `${title} · ${NAME}`;
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{pageTitle}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonical} />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="alternate" type="application/rss+xml" title="Ally Madrone: updates" href="/feed.xml" />
+    <meta property="og:type" content="profile" />
+    <meta property="og:title" content={pageTitle} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:image" content={`${SITE_URL}${HEADSHOT}`} />
+    <meta property="og:site_name" content="AllyMadrone.com" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content={pageTitle} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={`${SITE_URL}${HEADSHOT}`} />
+    <script type="application/ld+json" set:html={JSON.stringify(jsonld)} />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site">
+      <div class="wrap">
+        <a class="brand" href="/">Ally Madrone</a>
+        <nav class="primary" aria-label="Primary">
+          {
+            NAV.map((item) => (
+              <a
+                href={item.href}
+                aria-current={
+                  (item.href === '/' && path === '/') ||
+                  (item.href !== '/' && path.startsWith(item.href))
+                    ? 'page'
+                    : undefined
+                }
+              >
+                {item.label}
+              </a>
+            ))
+          }
+        </nav>
+      </div>
+    </header>
+    <main id="main">
+      <div class="wrap">
+        <slot />
+      </div>
+    </main>
+    <footer class="site">
+      <div class="wrap">
+        <nav aria-label="Secondary">
+          {FOOTER_NAV.map((item) => <a href={item.href}>{item.label}</a>)}
+        </nav>
+        <p>
+          {ENTITY_STATEMENT} This site is the authoritative source for information about him.
+          Page last updated {updated}.
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>

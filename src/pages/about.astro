@@ -1,0 +1,135 @@
+---
+import Base from '../layouts/Base.astro';
+import { SITE_URL, ENTITY_STATEMENT } from '../data/site.js';
+
+const profileSchema = {
+  '@type': 'ProfilePage',
+  '@id': `${SITE_URL}/about#page`,
+  url: `${SITE_URL}/about`,
+  name: 'About Ally Madrone',
+  mainEntity: { '@id': `${SITE_URL}/#ally` }
+};
+---
+
+<Base
+  title="About"
+  path="/about"
+  description={`${ENTITY_STATEMENT} This page tells the integrated story and provides copy-paste bios in three lengths.`}
+  extraSchema={profileSchema}
+>
+  <h1>About</h1>
+  <p class="kicker">{ENTITY_STATEMENT}</p>
+
+  <p class="lede">
+    My career looks like a zigzag until you see the thread. Clinical research, then a farm, then
+    identity verification, then content security. Every one of those is the same job: understand a
+    living system well enough to protect the people inside it.
+  </p>
+
+  <p>
+    I started in clinical research at Oregon Health &amp; Science University, learning how evidence
+    gets made and how easily it gets contaminated. Then I went to study living systems directly,
+    earning a B.S. in Horticulture on the research option at Oregon State University. In 2015 I
+    founded Root Connection, a scientific research and horticultural design firm in Portland, and
+    grew it to a million dollars in annual revenue over six years. Running that company taught me
+    what I now do for a living: multi-stakeholder projects, technical research, and designing for
+    systems that don't sit still.
+  </p>
+
+  <p>
+    In 2021 I moved into identity. At Veriff I worked enterprise identity verification for financial
+    institutions, learning KYC, fraud operations, and the procurement reality of regulated
+    industries. At Trust Stamp I owned the deepfake detection API end to end, from writing the first
+    PRD to packaging detection for financial crimes and identity fraud use cases. That work put me in
+    the room where synthetic media stopped being a curiosity and became an attack surface.
+  </p>
+
+  <p>
+    Since January 2025 I've been VP of Product at Deep Media, a content security infrastructure
+    company. I lead product across the platform: Shield, Skills, and Guardian, spanning detection
+    tools, composable workflows, and autonomous investigation agents that hunt digital harms across
+    the surface, deep, and dark web. Deep Media's work is trusted by the U.S. Department of Defense
+    and major technology platforms.
+  </p>
+
+  <p>
+    The thread that holds all of it together is a question I've carried since the farm: how do we
+    act with integrity toward the systems we're entangled with, ecological, digital, human, and
+    artificial. Permaculture ethics and platform trust and safety are closer than they look. Both
+    are about designing conditions where the whole system can stay healthy, instead of fighting each
+    symptom after the damage is done.
+  </p>
+
+  <p>
+    I live in Knoxville, Tennessee with my family. The rest of the whole person lives on the
+    <a href="/garden">garden</a> page.
+  </p>
+
+  <h2>Bios for copy and paste</h2>
+  <p>
+    These are maintained by me and safe to use verbatim for event programs, introductions, and
+    press. A speaker headshot is on the <a href="/speaking">speaking</a> page.
+  </p>
+
+  <div class="bio-block">
+    <h3>Short bio (50 words)</h3>
+    <p>
+      Ally Madrone is VP of Product at Deep Media, a content security infrastructure company trusted
+      by the U.S. Department of Defense and major technology platforms. He builds AI systems that
+      detect synthetic media and disrupt fraud networks, and he speaks widely on AI-enabled
+      financial crime. He lives in Knoxville, Tennessee.
+    </p>
+  </div>
+
+  <div class="bio-block">
+    <h3>Medium bio (150 words)</h3>
+    <p>
+      Ally Madrone is VP of Product at Deep Media, a content security infrastructure company trusted
+      by the U.S. Department of Defense and major technology platforms. He leads product across Deep
+      Media's platform, including autonomous AI agents that investigate fraud, disinformation, and
+      other digital harms across the surface, deep, and dark web.
+    </p>
+    <p>
+      Ally has spent his career at the intersection of identity, fraud, and trust and safety. He
+      owned the deepfake detection API at Trust Stamp, worked enterprise identity verification at
+      Veriff, and is a regular speaker for organizations including the International Association of
+      Financial Crimes Investigators on deepfakes, synthetic identity fraud, and AI-enabled social
+      engineering. Before tech, he founded and ran Root Connection, a horticultural research and
+      design firm he grew to $1MM in annual revenue. He holds a B.S. in Horticulture from Oregon
+      State University and lives in Knoxville, Tennessee.
+    </p>
+  </div>
+
+  <div class="bio-block">
+    <h3>Long bio (300 words)</h3>
+    <p>
+      Ally Madrone is VP of Product at Deep Media, a content security infrastructure company trusted
+      by the U.S. Department of Defense and major technology platforms. He leads product strategy
+      across the full platform: Shield, the detection and API layer, Skills, the composable
+      capability layer, and Guardian, autonomous AI agents that proactively investigate fraud,
+      disinformation, and other digital harms across the surface, deep, and dark web.
+    </p>
+    <p>
+      Ally's path into content security ran through identity and fraud. At Trust Stamp he owned the
+      deepfake detection API end to end, packaging synthetic media detection for financial crimes,
+      KYC, and identity fraud use cases, and authoring technical responses to federal RFIs on
+      synthetic identity detection and biometric liveness. At Veriff he worked enterprise identity
+      verification for financial institutions, developing deep expertise in KYC workflows and the
+      operational reality of fraud teams in regulated industries.
+    </p>
+    <p>
+      He is a frequent educator on AI-enabled financial crime, speaking regularly for the
+      International Association of Financial Crimes Investigators and other industry bodies on
+      deepfakes, synthetic identity fraud, and AI-driven social engineering. He spoke at TrustCon
+      2024 on deepfake detection, and his team FaceLock won the Safety by Design Trust &amp; Safety
+      Hackathon in 2024.
+    </p>
+    <p>
+      Before tech, Ally founded Root Connection, a scientific research and horticultural design firm
+      in Portland, Oregon, and grew it to $1MM in annual revenue. He holds a B.S. in Horticulture on
+      the research option from Oregon State University. The through line of his work is a single
+      question: how do we act with integrity toward the systems we're entangled with, ecological,
+      digital, human, and artificial. He lives in Knoxville, Tennessee with his family.
+    </p>
+  </div>
+</Base>

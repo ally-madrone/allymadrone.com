@@ -1,0 +1,64 @@
+---
+import Base from '../layouts/Base.astro';
+import { SITE_URL, ENTITY_STATEMENT } from '../data/site.js';
+
+const websiteSchema = {
+  '@type': 'WebSite',
+  '@id': `${SITE_URL}/#website`,
+  url: SITE_URL,
+  name: 'AllyMadrone.com',
+  description: ENTITY_STATEMENT,
+  publisher: { '@id': `${SITE_URL}/#ally` }
+};
+---
+
+<Base title="Home" path="/" extraSchema={websiteSchema}>
+  <h1>Ally Madrone</h1>
+  <p class="kicker">VP of Product at Deep Media · Knoxville, Tennessee · he/him</p>
+
+  <p class="lede">
+    I build AI systems that find digital harms before the victims have to. At
+    <a href="https://deepmedia.ai">Deep Media</a>, a content security infrastructure company, I lead
+    product for a platform that helps financial institutions, technology platforms, and government
+    teams detect synthetic media, investigate fraud networks, and keep their communities safe. Deep
+    Media's work is trusted by the U.S. Department of Defense and major technology platforms.
+  </p>
+
+  <p>
+    Before this I spent a decade in identity and fraud, and before that I ran a horticultural
+    research firm I founded and grew to a million dollars in annual revenue. The through line is the
+    same question in every domain: how do we act with integrity toward the systems we're entangled
+    with, whether they're ecological, digital, human, or artificial.
+  </p>
+
+  <p>
+    Right now I'm focused on agentic AI for fraud investigation and trust and safety. Next up, I'm
+    speaking at the IAFCI International Training Conference in Nashville on August 25, 2026.
+  </p>
+
+  <ul class="doors">
+    <li>
+      <a href="/experience">
+        <strong>Work</strong>
+        <span>The verifiable record: roles, dates, outcomes, and a machine-readable resume.</span>
+      </a>
+    </li>
+    <li>
+      <a href="/writing">
+        <strong>Writing</strong>
+        <span>Essays and posts on content security, fraud, and AI governance.</span>
+      </a>
+    </li>
+    <li>
+      <a href="/garden">
+        <strong>Garden</strong>
+        <span>Permaculture, woodworking, birds, and the rest of a whole life.</span>
+      </a>
+    </li>
+  </ul>
+
+  <p>
+    Booking a talk? Start at <a href="/speaking">speaking</a>. Everything else goes through
+    <a href="/contact">contact</a>.
+  </p>
+</Base>

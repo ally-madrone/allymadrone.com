@@ -1,0 +1,85 @@
+---
+import Base from '../layouts/Base.astro';
+import { ENTITY_STATEMENT } from '../data/site.js';
+---
+
+<Base
+  title="Experience"
+  path="/experience"
+  description={`${ENTITY_STATEMENT} Structured career timeline with dates, titles, and outcomes, plus a machine-readable resume.`}
+>
+  <h1>Experience</h1>
+  <p class="kicker">
+    The verifiable record. A machine-readable version lives at
+    <a href="/resume.json">/resume.json</a> (JSON Resume schema).
+  </p>
+
+  <h2>Timeline</h2>
+  <dl class="record">
+    <div>
+      <dt>VP of Product, Deep Media · January 2025 – present</dt>
+      <dd>
+        Remote / Knoxville, TN. Deep Media is a content security infrastructure company. I own
+        product strategy and roadmap across the platform: Shield, the detection and API layer built
+        around the Content Genome engine, Skills, the composable capability layer, and Guardian,
+        autonomous AI agents that proactively investigate fraud, disinformation, terrorist and
+        violent extremist content, brand safety, NCII, and threat intelligence across the surface,
+        deep, and dark web. Investigations that previously took weeks now take hours, with
+        audit-ready output built for regulators and courts. Deep Media's work is trusted by the U.S.
+        Department of Defense and major technology platforms.
+      </dd>
+    </div>
+    <div>
+      <dt>Director, Product &amp; Business Development, Trust Stamp · May 2023 – December 2025</dt>
+      <dd>
+        Biometric authentication and synthetic identity detection for financial services. I owned
+        the deepfake detection API end to end, from authoring the PRD to packaging detection for
+        financial crimes, KYC, and identity fraud use cases. Led technical engagements with CISOs
+        and security architects at banks and fintechs, and authored 50-page technical responses to
+        federal RFIs on synthetic identity detection, biometric liveness, and AI-enabled fraud
+        threat modeling.
+      </dd>
+    </div>
+    <div>
+      <dt>Enterprise Account Executive, Veriff · November 2021 – May 2023</dt>
+      <dd>
+        Global identity verification platform. Worked six-month enterprise procurement cycles with
+        General Counsels, CISOs, and Heads of Fraud at financial institutions, and built deep
+        expertise in KYC and AML-adjacent identity workflows and the operational reality of fraud
+        teams in regulated industries.
+      </dd>
+    </div>
+    <div>
+      <dt>Founder &amp; CEO, Root Connection · March 2015 – March 2021</dt>
+      <dd>
+        Portland, OR. Founded and ran a scientific research and horticultural design firm, growing
+        it to $1MM in annual revenue. Multi-stakeholder project management and formal research
+        methodology from this work became the foundation for how I design AI products and
+        investigation frameworks today.
+      </dd>
+    </div>
+  </dl>
+
+  <h2>Recognition</h2>
+  <ul>
+    <li>
+      Winner, Safety by Design Trust &amp; Safety Hackathon, April 2024, with team FaceLock.
+    </li>
+    <li>
+      Participant in the inaugural Trust &amp; Safety Hackathon in San Francisco (July 2023) and the
+      Paris edition (2024).
+    </li>
+  </ul>
+
+  <h2>Credentials</h2>
+  <ul>
+    <li>
+      B.S., Horticulture (Research Option), Oregon State University. Pi Alpha Xi Honor Society,
+      Permaculture Research Institute.
+    </li>
+    <li>
+      Apprenti Marketing Apprenticeship, registered with the U.S. Department of Labor, completed
+      January 9, 2026.
+    </li>
+  </ul>
+</Base>

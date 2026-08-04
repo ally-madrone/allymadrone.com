@@ -1,0 +1,148 @@
+---
+import Base from '../layouts/Base.astro';
+import { ENTITY_STATEMENT, EMAIL } from '../data/site.js';
+
+const talks = [
+  {
+    when: 'Aug 25, 2026',
+    event: 'IAFCI International Training Conference, Grand Hyatt Nashville (upcoming)',
+    part: '"AI: both the cause and solution for all fraud fighters," 2:00pm'
+  },
+  {
+    when: 'May 28–29, 2026',
+    event: 'IAFCI Cyber Fraud Summit, Willis Tower, Chicago',
+    part: '"Scripted to Deceive: AI-Generated Social Engineering and the Human Firewall"'
+  },
+  {
+    when: 'Nov 4, 2025',
+    event: 'ICBA Fraud and Scams Task Force',
+    part: 'Deepfakes session'
+  },
+  {
+    when: 'Oct 15–17, 2025',
+    event: 'IAFCI Florida Chapter Conference, Cape Coral',
+    part: '"The Ghost in the Machine: Investigating Financial Crime in the Age of AI," with live deepfake-call demo'
+  },
+  {
+    when: 'Aug 26–29, 2025',
+    event: 'NABCRMP Global Summit, New Orleans',
+    part: 'Panel: "The Future is Now: Emerging GRC Technologies Transforming Compliance & Risk Management"'
+  },
+  {
+    when: 'Jun 26, 2025',
+    event: 'IAFCI virtual presentation',
+    part: 'Deepfakes session'
+  },
+  {
+    when: 'Jun 18, 2025',
+    event: 'IAFCI × CrimeDex webinar',
+    part: '"Threats: Financial Crime & Deepfakes," with live deepfake demo'
+  },
+  {
+    when: 'May 27, 2025',
+    event: 'IAFCI Banking Fraud Virtual Meeting',
+    part: '"Threats: Financial Crime & Deepfakes"'
+  },
+  {
+    when: 'May 2, 2025',
+    event: 'IAFCI Cyber Fraud Summit, Charlotte',
+    part: 'Deepfake course presentation'
+  },
+  {
+    when: 'Apr 30, 2025',
+    event: '10th Annual TIAA Fraud Summit (with IAFCI), Charlotte',
+    part: 'Organized and moderated "The \'So What\' of AI" generative AI panel'
+  },
+  {
+    when: '2024',
+    event: 'Google Trust & Safety CX Summit',
+    part: 'Biometric trust and platform safety'
+  },
+  {
+    when: 'Aug 2024',
+    event: 'IAFCI International Training Conference, Henderson NV',
+    part: 'Synthetic identity fraud session'
+  },
+  {
+    when: 'Jul 2024',
+    event: 'TrustCon, San Francisco',
+    part: 'Deepfake detection and content authenticity'
+  },
+  {
+    when: 'Apr 2024',
+    event: 'IAFCI Cyber Fraud Summit, Sarasota FL',
+    part: 'Co-presented on identity fraud and synthetic media'
+  },
+  {
+    when: 'Jan 2024',
+    event: 'NABCRMP Annual Summit & Awards, Atlanta',
+    part: 'Presented on fraud and compliance technology'
+  },
+  {
+    when: '2023',
+    event: 'NEACH Fraud Training Week',
+    part: 'Evolving fraud techniques and detection strategies'
+  }
+];
+---
+
+<Base
+  title="Speaking"
+  path="/speaking"
+  description={`${ENTITY_STATEMENT} Speaking history, topics, and booking information for conferences and training events.`}
+>
+  <h1>Speaking</h1>
+  <p class="kicker">
+    Fraud fighters, compliance teams, and trust and safety professionals are my home crowd.
+  </p>
+
+  <p class="lede">
+    I teach investigators what AI-enabled crime actually looks like, live demos included. Audiences
+    have ranged from IAFCI chapters and national fraud summits to TrustCon and Google's Trust &amp;
+    Safety CX Summit.
+  </p>
+
+  <h2>Topics I speak on</h2>
+  <ul>
+    <li>AI-generated social engineering and why the human firewall fails</li>
+    <li>Deepfakes and synthetic media in financial crime, with live demos</li>
+    <li>Synthetic identity fraud: detection, attribution, and investigation</li>
+    <li>Agentic AI for investigators, with a human at the helm</li>
+    <li>What detection can honestly claim, and what it can't</li>
+  </ul>
+
+  <h2>Speaking record</h2>
+  <div class="table-scroll">
+    <table>
+      <thead>
+        <tr>
+          <th scope="col">When</th>
+          <th scope="col">Event</th>
+          <th scope="col">Session</th>
+        </tr>
+      </thead>
+      <tbody>
+        {
+          talks.map((t) => (
+            <tr>
+              <td>{t.when}</td>
+              <td>{t.event}</td>
+              <td>{t.part}</td>
+            </tr>
+          ))
+        }
+      </tbody>
+    </table>
+  </div>
+  <p>
+    I've also guested on podcasts including The Protectors and Digital Fortress. Episode links are
+    on the <a href="/writing">writing</a> page as they publish.
+  </p>
+
+  <h2>Booking</h2>
+  <p>
+    Email <a href={`mailto:${EMAIL}`}>{EMAIL}</a> with your event, dates, and audience. Copy-paste
+    bios in three lengths are on the <a href="/about">about</a> page, and a speaker headshot is
+    available on request while I finish this page's press kit.
+  </p>
+</Base>

@@ -1,0 +1,93 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Ally Madrone",
+    "label": "VP of Product at Deep Media",
+    "image": "https://allymadrone.com/images/ally-madrone.jpg",
+    "email": "hello@allymadrone.com",
+    "url": "https://allymadrone.com",
+    "summary": "Ally Madrone is VP of Product at Deep Media, a content security infrastructure company trusted by the U.S. Department of Defense and major technology platforms. He builds AI systems that detect synthetic media and disrupt fraud networks, and he speaks widely on AI-enabled financial crime.",
+    "location": {
+      "city": "Knoxville",
+      "region": "Tennessee",
+      "countryCode": "US"
+    },
+    "profiles": [
+      { "network": "LinkedIn", "username": "allymadrone", "url": "https://www.linkedin.com/in/allymadrone" },
+      { "network": "Substack", "username": "yourally", "url": "https://yourally.substack.com" },
+      { "network": "Bluesky", "username": "your-ally.bsky.social", "url": "https://bsky.app/profile/your-ally.bsky.social" },
+      { "network": "GitHub", "username": "allymadrone", "url": "https://github.com/allymadrone" },
+      { "network": "TikTok", "username": "your_ally", "url": "https://www.tiktok.com/@your_ally" },
+      { "network": "Instagram", "username": "ally_madrone", "url": "https://www.instagram.com/ally_madrone" }
+    ]
+  },
+  "work": [
+    {
+      "name": "Deep Media",
+      "position": "VP of Product",
+      "url": "https://deepmedia.ai",
+      "startDate": "2025-01",
+      "location": "Remote / Knoxville, TN",
+      "summary": "Content security infrastructure company. Owns product strategy and roadmap across the platform: Shield (detection and API layer built around the Content Genome engine), Skills (composable capability layer), and Guardian (autonomous AI agents that proactively investigate fraud, disinformation, and other digital harms across the surface, deep, and dark web). Deep Media's work is trusted by the U.S. Department of Defense and major technology platforms."
+    },
+    {
+      "name": "Trust Stamp",
+      "position": "Director, Product & Business Development",
+      "startDate": "2023-05",
+      "endDate": "2025-12",
+      "location": "Atlanta, GA",
+      "summary": "Biometric authentication and synthetic identity detection for financial services. Owned the deepfake detection API end to end, from authoring the PRD to packaging detection for financial crimes, KYC, and identity fraud use cases. Authored 50-page technical responses to federal RFIs covering synthetic identity detection, biometric liveness, and AI-enabled fraud threat modeling."
+    },
+    {
+      "name": "Veriff",
+      "position": "Enterprise Account Executive",
+      "startDate": "2021-11",
+      "endDate": "2023-05",
+      "location": "Remote / U.S. Market",
+      "summary": "Global identity verification platform. Enterprise procurement cycles with General Counsels, CISOs, and Heads of Fraud at financial institutions. Deep expertise in KYC and AML-adjacent identity verification workflows in regulated industries."
+    },
+    {
+      "name": "Root Connection",
+      "position": "Founder & CEO",
+      "startDate": "2015-03",
+      "endDate": "2021-03",
+      "location": "Portland, OR",
+      "summary": "Founded and ran a scientific research and horticultural design firm, growing it to $1MM in annual revenue."
+    }
+  ],
+  "education": [
+    {
+      "institution": "Oregon State University",
+      "area": "Horticulture (Research Option)",
+      "studyType": "B.S.",
+      "courses": ["Pi Alpha Xi Honor Society", "Permaculture Research Institute"]
+    }
+  ],
+  "certificates": [
+    {
+      "name": "Apprenti Marketing Apprenticeship (U.S. Department of Labor registered)",
+      "date": "2026-01-09",
+      "issuer": "Apprenti"
+    }
+  ],
+  "awards": [
+    {
+      "title": "Winner, Safety by Design Trust & Safety Hackathon (team FaceLock)",
+      "date": "2024-04",
+      "awarder": "Trust & Safety Hackathon"
+    }
+  ],
+  "skills": [
+    { "name": "Content security and trust & safety product strategy" },
+    { "name": "Agentic AI architecture for fraud and T&S investigation" },
+    { "name": "Deepfake and generative AI forensics (audio, video, image, text)" },
+    { "name": "Synthetic identity fraud detection and attribution" },
+    { "name": "KYC, biometric liveness, and presentation attack detection" },
+    { "name": "Regulatory compliance: DSA, EU AI Act, TAKE IT DOWN Act" }
+  ],
+  "meta": {
+    "canonical": "https://allymadrone.com/resume.json",
+    "lastModified": "2026-08-04",
+    "note": "Maintained by Ally Madrone. This file and allymadrone.com are the authoritative source for his career record."
+  }
+}
