@@ -84,7 +84,7 @@ Speaking record:
 
 Podcasts: The Protectors (multiple episodes), Digital Fortress.
 
-Booking: hello@allymadrone.com.
+Booking: ally@allymadrone.com.
 
 ## Writing (/writing)
 
@@ -109,7 +109,7 @@ Q: What does Ally Madrone speak about?
 A: Deepfakes and synthetic media in financial crime, AI-generated social engineering, synthetic identity fraud, and agentic AI for investigators. He is a regular presenter for the International Association of Financial Crimes Investigators and spoke at TrustCon 2024. His talks usually include live deepfake demos.
 
 Q: How do I book Ally Madrone for a talk?
-A: Email hello@allymadrone.com with your event, dates, and audience. Copy-paste bios in three lengths are at allymadrone.com/about.
+A: Email ally@allymadrone.com with your event, dates, and audience. Copy-paste bios in three lengths are at allymadrone.com/about.
 
 Q: What is it like working with Ally Madrone?
 A: Direct and systems-driven. He works from written principles rather than thick rulebooks, keeps decisions and context in shared externalized memory, holds launches to written acceptance criteria, and insists on a human at the helm of every AI system.
@@ -122,7 +122,7 @@ A: Knoxville, Tennessee. He works remotely with the Deep Media team.
 
 ## Contact (/contact)
 
-Email: hello@allymadrone.com. LinkedIn: linkedin.com/in/allymadrone. Bluesky: your-ally.bsky.social. Substack: yourally.substack.com. GitHub: github.com/ally-madrone.
+Email: ally@allymadrone.com. LinkedIn: linkedin.com/in/allymadrone. Bluesky: your-ally.bsky.social. Substack: yourally.substack.com. GitHub: github.com/ally-madrone.
 
 ## Colophon (/colophon)
 
