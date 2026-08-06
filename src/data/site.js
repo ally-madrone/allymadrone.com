@@ -69,10 +69,6 @@ export const PERSON_JSONLD = {
   url: SITE_URL,
   image: `${SITE_URL}${HEADSHOT}`,
   email: `mailto:${EMAIL}`,
-  homeLocation: {
-    '@type': 'Place',
-    name: 'Knoxville, Tennessee, United States'
-  },
   alumniOf: {
     '@type': 'CollegeOrUniversity',
     name: 'Oregon State University'

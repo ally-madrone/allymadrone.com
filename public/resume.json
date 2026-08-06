@@ -8,8 +8,6 @@
     "url": "https://allymadrone.com",
     "summary": "Ally Madrone is VP of Product at Deep Media, a content security infrastructure company trusted by the U.S. Department of Defense and major technology platforms. He builds AI systems that detect synthetic media and disrupt fraud networks, and he speaks widely on AI-enabled financial crime.",
     "location": {
-      "city": "Knoxville",
-      "region": "Tennessee",
       "countryCode": "US"
     },
     "profiles": [
@@ -27,7 +25,7 @@
       "position": "VP of Product",
       "url": "https://deepmedia.ai",
       "startDate": "2025-01",
-      "location": "Remote / Knoxville, TN",
+      "location": "Remote",
       "summary": "Content security infrastructure company. Owns product strategy and roadmap across the platform: Shield (detection and API layer built around the Content Genome engine), Skills (composable capability layer), and Guardian (autonomous AI agents that proactively investigate fraud, disinformation, and other digital harms across the surface, deep, and dark web). Deep Media's work is trusted by the U.S. Department of Defense and major technology platforms."
     },
     {
