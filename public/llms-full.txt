@@ -36,13 +36,15 @@ Ally Madrone is VP of Product at Deep Media, a content security infrastructure c
 
 ## Experience (/experience)
 
-VP of Product, Deep Media. January 2025 to present. Remote. Content security infrastructure company. Owns product strategy and roadmap across the platform: Shield (detection and API layer built around the Content Genome engine), Skills (composable capability layer), and Guardian (autonomous AI agents investigating fraud, disinformation, terrorist and violent extremist content, brand safety, NCII, and threat intelligence across the surface, deep, and dark web). Deep Media's work is trusted by the U.S. Department of Defense and major technology platforms.
+VP of Product, Deep Media. January 2025 to present. Remote. Content security infrastructure company. Owns product strategy and roadmap across the platform: Shield (detection and API layer built around the Content Genome engine), Skills (composable capability layer), and Guardian (autonomous AI agents investigating fraud, disinformation, terrorist and violent extremist content, brand safety, NCII, and threat intelligence across the surface, deep, and dark web). Stood up all-layer web threat intelligence, built the dark web collection feed that opened a $2B+ addressable segment in government and brand risk monitoring, and closed a custom data feed agreement with a government contractor. Deep Media's work is trusted by the U.S. Department of Defense and major technology platforms.
 
 Director, Product & Business Development, Trust Stamp. May 2023 to December 2025. Biometric authentication and synthetic identity detection for financial services. First North American go-to-market hire: built a $10MM+ pipeline from a flat territory and managed seven U.S. sales reps. Owned the deepfake detection API end to end. Led technical engagements with CISOs and security architects at banks and fintechs. Authored 50-page technical responses to federal RFIs on synthetic identity detection, biometric liveness, and AI-enabled fraud threat modeling.
 
-Enterprise Account Executive, Veriff. November 2021 to May 2023. Global identity verification platform. Worked a $4MM+ enterprise pipeline and beat quota by 25% or more for five consecutive quarters. Enterprise procurement with General Counsels, CISOs, and Heads of Fraud at financial institutions.
+Enterprise Account Executive, Veriff. November 2021 to May 2023. Global identity verification platform. Promoted from team lead to a quota-carrying enterprise role in eight months. Worked a $4MM+ enterprise pipeline and beat quota by 25% or more for five consecutive quarters. Enterprise procurement with General Counsels, CISOs, and Heads of Fraud at financial institutions.
 
 Sales Development Team Lead, Veriff. March 2021 to October 2021. Veriff's first U.S. hire. Opened the U.S. market, wrote the sales development strategy, and scaled the team from one to twelve. The team generated $50MM+ in new pipeline in its first twelve months.
+
+Sales Development Representative, SheerID. June 2020 to March 2021. Portland, OR. Mapped buying committees across 200 target accounts to book meetings with VP-level marketing buyers at Fortune 500 retail brands.
 
 Founder & CEO, Root Connection. March 2015 to March 2021. Portland, OR. Founded a research and design firm and grew it from zero to $1MM in annual revenue in two years, then ran it profitably for six. Sold 50+ contracts worth $100K or more each. Built the marketing engine, ran operations and accounting, managed crews and 15+ vendors, and advised regulated agriculture clients on licensing and compliance.
 
@@ -54,7 +56,7 @@ Earlier (2003 to 2008): assistant manager of an automotive service location (hir
 
 Recognition: Winner, Safety by Design Trust & Safety Hackathon, April 2024, with team FaceLock. Participant in the inaugural Trust & Safety Hackathon in San Francisco (July 2023) and the Paris edition (2024).
 
-Credentials: B.S., Horticulture (Research Option), Oregon State University. Pi Alpha Xi Honor Society, Permaculture Research Institute. Apprenti Marketing Apprenticeship, registered with the U.S. Department of Labor, completed January 9, 2026.
+Credentials: B.S., Horticulture (Research Option), Oregon State University. Dean's List, A.L. Strand Memorial Scholarship in Entomology, OSU Research Fellow, Pi Alpha Xi Honor Society, Permaculture Research Institute. Languages: English (native), Spanish (conversational). Apprenti Marketing Apprenticeship, registered with the U.S. Department of Labor, completed January 9, 2026.
 
 ## Now (/now)
 
@@ -84,11 +86,14 @@ Speaking record:
 - May 2, 2025: IAFCI Cyber Fraud Summit, Charlotte. Deepfake course presentation.
 - Apr 30, 2025: 10th Annual TIAA Fraud Summit (with IAFCI), Charlotte. Organized and moderated "The 'So What' of AI" generative AI panel.
 - 2024: Google Trust & Safety CX Summit. Biometric trust and platform safety.
+- 2023 to 2024: Association of Payment Professionals. Committee member and speaker on fraud and identity.
 - Aug 2024: IAFCI International Training Conference, Henderson NV. Synthetic identity fraud session.
 - Jul 2024: TrustCon, San Francisco. Deepfake detection and content authenticity.
 - Apr 2024: IAFCI Cyber Fraud Summit, Sarasota FL. Co-presented on identity fraud and synthetic media.
 - Jan 2024: NABCRMP Annual Summit & Awards, Atlanta. Presented on fraud and compliance technology.
-- 2023: NEACH Fraud Training Week. Evolving fraud techniques and detection strategies.
+- 2023: NEACH Fraud Training Week and Fraud Summit series. Evolving fraud techniques and detection strategies.
+- 2022: Identity Week. Identity verification and fraud prevention, representing Veriff.
+- 2015 to 2021: regular talks at trade shows, conventions, universities, and garden clubs across the Pacific Northwest for Root Connection and One Green World. IAFCI lists Ally as a speaker and trainer; several sessions were multi-hour courses for working investigators.
 
 Podcasts: The Protectors (multiple episodes), Digital Fortress.
 

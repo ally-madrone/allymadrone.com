@@ -29,6 +29,8 @@ export const KNOWS_ABOUT = [
   'AI governance and regulation',
   'civil discourse',
   'product management',
+  'enterprise sales',
+  'go-to-market strategy',
   'agentic AI systems',
   'permaculture design',
   'traditional woodworking'

@@ -50,7 +50,7 @@
       "url": "https://deepmedia.ai",
       "startDate": "2025-01",
       "location": "Remote",
-      "summary": "Content security infrastructure company. Owns product strategy and roadmap across the platform: Shield (detection and API layer built around the Content Genome engine), Skills (composable capability layer), and Guardian (autonomous AI agents that proactively investigate fraud, disinformation, and other digital harms across the surface, deep, and dark web). Deep Media's work is trusted by the U.S. Department of Defense and major technology platforms."
+      "summary": "Content security infrastructure company. Owns product strategy and roadmap across the platform: Shield (detection and API layer built around the Content Genome engine), Skills (composable capability layer), and Guardian (autonomous AI agents that proactively investigate fraud, disinformation, and other digital harms across the surface, deep, and dark web). Deep Media's work is trusted by the U.S. Department of Defense and major technology platforms. Stood up all-layer web threat intelligence, built the dark web collection feed that opened a $2B+ addressable segment in government and brand risk monitoring, and closed a custom data feed agreement with a government contractor."
     },
     {
       "name": "Trust Stamp",
@@ -66,7 +66,7 @@
       "startDate": "2021-11",
       "endDate": "2023-05",
       "location": "Remote / U.S. Market",
-      "summary": "Global identity verification platform. Worked a $4MM+ enterprise pipeline and beat quota by 25% or more for five consecutive quarters. Ran six-month enterprise procurement cycles with General Counsels, CISOs, and Heads of Fraud at financial institutions."
+      "summary": "Global identity verification platform. Promoted from team lead to a quota-carrying enterprise role in eight months. Worked a $4MM+ enterprise pipeline and beat quota by 25% or more for five consecutive quarters. Ran six-month enterprise procurement cycles with General Counsels, CISOs, and Heads of Fraud at financial institutions."
     },
     {
       "name": "Veriff",
@@ -75,6 +75,14 @@
       "endDate": "2021-10",
       "location": "Remote / U.S. Market",
       "summary": "Veriff's first U.S. hire. Opened the U.S. market with no playbook, wrote the sales development strategy, and scaled the team from one to twelve in under a year. The team generated $50MM+ in new pipeline in its first twelve months."
+    },
+    {
+      "name": "SheerID",
+      "position": "Sales Development Representative",
+      "startDate": "2020-06",
+      "endDate": "2021-03",
+      "location": "Portland, OR",
+      "summary": "Mapped buying committees across 200 target accounts to book meetings with VP-level marketing buyers at Fortune 500 retail brands."
     },
     {
       "name": "Root Connection",
@@ -107,6 +115,9 @@
       "area": "Horticulture (Research Option)",
       "studyType": "B.S.",
       "courses": [
+        "Dean's List",
+        "A.L. Strand Memorial Scholarship in Entomology",
+        "OSU Research Fellow",
         "Pi Alpha Xi Honor Society",
         "Permaculture Research Institute"
       ]
@@ -144,11 +155,24 @@
     },
     {
       "name": "Regulatory compliance: DSA, EU AI Act, TAKE IT DOWN Act"
+    },
+    {
+      "name": "Enterprise sales and go-to-market in regulated industries"
     }
   ],
   "meta": {
     "canonical": "https://allymadrone.com/resume.json",
     "lastModified": "2026-09-18",
     "note": "Maintained by Ally Madrone. This file and allymadrone.com are the authoritative source for his career record."
-  }
+  },
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native"
+    },
+    {
+      "language": "Spanish",
+      "fluency": "Conversational"
+    }
+  ]
 }
