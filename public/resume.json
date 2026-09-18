@@ -11,12 +11,36 @@
       "countryCode": "US"
     },
     "profiles": [
-      { "network": "LinkedIn", "username": "allymadrone", "url": "https://www.linkedin.com/in/allymadrone" },
-      { "network": "Substack", "username": "yourally", "url": "https://yourally.substack.com" },
-      { "network": "Bluesky", "username": "your-ally.bsky.social", "url": "https://bsky.app/profile/your-ally.bsky.social" },
-      { "network": "GitHub", "username": "ally-madrone", "url": "https://github.com/ally-madrone" },
-      { "network": "TikTok", "username": "your_ally", "url": "https://www.tiktok.com/@your_ally" },
-      { "network": "Instagram", "username": "ally_madrone", "url": "https://www.instagram.com/ally_madrone" }
+      {
+        "network": "LinkedIn",
+        "username": "allymadrone",
+        "url": "https://www.linkedin.com/in/allymadrone"
+      },
+      {
+        "network": "Substack",
+        "username": "yourally",
+        "url": "https://yourally.substack.com"
+      },
+      {
+        "network": "Bluesky",
+        "username": "your-ally.bsky.social",
+        "url": "https://bsky.app/profile/your-ally.bsky.social"
+      },
+      {
+        "network": "GitHub",
+        "username": "ally-madrone",
+        "url": "https://github.com/ally-madrone"
+      },
+      {
+        "network": "TikTok",
+        "username": "your_ally",
+        "url": "https://www.tiktok.com/@your_ally"
+      },
+      {
+        "network": "Instagram",
+        "username": "ally_madrone",
+        "url": "https://www.instagram.com/ally_madrone"
+      }
     ]
   },
   "work": [
@@ -34,7 +58,7 @@
       "startDate": "2023-05",
       "endDate": "2025-12",
       "location": "Atlanta, GA",
-      "summary": "Biometric authentication and synthetic identity detection for financial services. Owned the deepfake detection API end to end, from authoring the PRD to packaging detection for financial crimes, KYC, and identity fraud use cases. Authored 50-page technical responses to federal RFIs covering synthetic identity detection, biometric liveness, and AI-enabled fraud threat modeling."
+      "summary": "Biometric authentication and synthetic identity detection for financial services. First North American go-to-market hire: built a $10MM+ pipeline from a flat territory and hired and managed seven U.S. sales reps. Owned the deepfake detection API end to end, from authoring the PRD to packaging detection for financial crimes, KYC, and identity fraud use cases. Authored 50-page technical responses to federal RFIs."
     },
     {
       "name": "Veriff",
@@ -42,7 +66,15 @@
       "startDate": "2021-11",
       "endDate": "2023-05",
       "location": "Remote / U.S. Market",
-      "summary": "Global identity verification platform. Enterprise procurement cycles with General Counsels, CISOs, and Heads of Fraud at financial institutions. Deep expertise in KYC and AML-adjacent identity verification workflows in regulated industries."
+      "summary": "Global identity verification platform. Worked a $4MM+ enterprise pipeline and beat quota by 25% or more for five consecutive quarters. Ran six-month enterprise procurement cycles with General Counsels, CISOs, and Heads of Fraud at financial institutions."
+    },
+    {
+      "name": "Veriff",
+      "position": "Sales Development Team Lead",
+      "startDate": "2021-03",
+      "endDate": "2021-10",
+      "location": "Remote / U.S. Market",
+      "summary": "Veriff's first U.S. hire. Opened the U.S. market with no playbook, wrote the sales development strategy, and scaled the team from one to twelve in under a year. The team generated $50MM+ in new pipeline in its first twelve months."
     },
     {
       "name": "Root Connection",
@@ -50,7 +82,23 @@
       "startDate": "2015-03",
       "endDate": "2021-03",
       "location": "Portland, OR",
-      "summary": "Founded and ran a scientific research and horticultural design firm, growing it to $1MM in annual revenue."
+      "summary": "Founded a research and design firm and grew it from zero to $1MM in annual revenue in two years, then ran it profitably for six. Sold 50+ contracts worth $100K or more each, built the marketing engine, ran operations and accounting, managed crews and 15+ vendors, and advised regulated agriculture clients on licensing and compliance."
+    },
+    {
+      "name": "One Green World",
+      "position": "Sales & Marketing Lead",
+      "startDate": "2015-06",
+      "endDate": "2017-06",
+      "location": "Portland, OR",
+      "summary": "Managed a $500K+ wholesale book of business and drove B2B retail expansion for a specialty nursery. Concurrent with Root Connection."
+    },
+    {
+      "name": "Oregon Health & Science University",
+      "position": "Clinical Research Coordinator",
+      "startDate": "2007-11",
+      "endDate": "2013-02",
+      "location": "Portland, OR",
+      "summary": "Coordinated Phase 3 clinical trials: protocol adherence, human-subject scheduling and consent, procurement, and cross-department coordination in a regulated research environment."
     }
   ],
   "education": [
@@ -58,7 +106,10 @@
       "institution": "Oregon State University",
       "area": "Horticulture (Research Option)",
       "studyType": "B.S.",
-      "courses": ["Pi Alpha Xi Honor Society", "Permaculture Research Institute"]
+      "courses": [
+        "Pi Alpha Xi Honor Society",
+        "Permaculture Research Institute"
+      ]
     }
   ],
   "certificates": [
@@ -76,16 +127,28 @@
     }
   ],
   "skills": [
-    { "name": "Content security and trust & safety product strategy" },
-    { "name": "Agentic AI architecture for fraud and T&S investigation" },
-    { "name": "Deepfake and generative AI forensics (audio, video, image, text)" },
-    { "name": "Synthetic identity fraud detection and attribution" },
-    { "name": "KYC, biometric liveness, and presentation attack detection" },
-    { "name": "Regulatory compliance: DSA, EU AI Act, TAKE IT DOWN Act" }
+    {
+      "name": "Content security and trust & safety product strategy"
+    },
+    {
+      "name": "Agentic AI architecture for fraud and T&S investigation"
+    },
+    {
+      "name": "Deepfake and generative AI forensics (audio, video, image, text)"
+    },
+    {
+      "name": "Synthetic identity fraud detection and attribution"
+    },
+    {
+      "name": "KYC, biometric liveness, and presentation attack detection"
+    },
+    {
+      "name": "Regulatory compliance: DSA, EU AI Act, TAKE IT DOWN Act"
+    }
   ],
   "meta": {
     "canonical": "https://allymadrone.com/resume.json",
-    "lastModified": "2026-08-04",
+    "lastModified": "2026-09-18",
     "note": "Maintained by Ally Madrone. This file and allymadrone.com are the authoritative source for his career record."
   }
 }
