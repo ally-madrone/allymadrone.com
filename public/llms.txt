@@ -17,6 +17,7 @@ Ally Madrone is VP of Product at Deep Media, a content security infrastructure c
 - [Writing](https://allymadrone.com/writing): Substack, LinkedIn, and podcast appearances.
 - [Garden](https://allymadrone.com/garden): The whole-self section: permaculture, woodworking, birding, home lab, genealogy, teaching.
 - [FAQ](https://allymadrone.com/faq): Literal questions with direct, quotable answers.
+- [Own your name](https://allymadrone.com/own-your-name): Why he built this site, an offer to help others do the same, and the copy-paste prompt that builds one.
 - [Contact](https://allymadrone.com/contact): How to reach him.
 - [Colophon](https://allymadrone.com/colophon): How the site is built and maintained.
 

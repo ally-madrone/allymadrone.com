@@ -47,6 +47,7 @@ export const NAV = [
 
 export const FOOTER_NAV = [
   { href: '/working-with-me', label: 'Working with me' },
+  { href: '/own-your-name', label: 'Own your name' },
   { href: '/faq', label: 'FAQ' },
   { href: '/colophon', label: 'Colophon' },
   { href: '/resume.json', label: 'resume.json' },

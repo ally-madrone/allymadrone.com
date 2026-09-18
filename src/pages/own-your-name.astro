@@ -1,0 +1,82 @@
+---
+import Base from '../layouts/Base.astro';
+import { ENTITY_STATEMENT } from '../data/site.js';
+import prompt from '../../public/own-your-name-prompt.md?raw';
+---
+
+<Base
+  title="Own your name"
+  path="/own-your-name"
+  description={`${ENTITY_STATEMENT} How he built this site, and a copy-paste prompt so you can build your own canonical home for humans and AI.`}
+>
+  <h1>Own your name</h1>
+  <p class="kicker">Become the authoritative source about yourself, for people and for AI. Here's how, and here's help.</p>
+
+  <p class="lede">
+    Search your own name and count the versions of you. A stale job title on a data broker. A
+    speaker bio that 404s. A cached headline from two employers ago. When an AI assistant is asked
+    who you are, it has to arbitrate between all of them, and it will pick wrong. I know because I
+    had exactly that problem, and this site is how I fixed it.
+  </p>
+
+  <p>
+    The fix is a site you control that states who you are once, clearly, in a form both humans and
+    machines can read: a canonical entity statement repeated consistently, structured data on
+    every page, an llms.txt for AI crawlers, a machine-readable resume, and a robots.txt that says
+    yes to being read. Then every profile you own points here, and the fragments collapse into one
+    person. This whole site was built in a sitting with Claude, deployed free, and it updates
+    whenever I tell it what changed.
+  </p>
+
+  <h2>I'll help you do it</h2>
+  <p>
+    I like this work. If you want a hand getting your own site up, or you've built one and want a
+    second set of eyes on how AI systems are reading it, email
+    <a href="mailto:ally@allymadrone.com">ally@allymadrone.com</a>. No pitch, no fee. This is the
+    same thing I do for a living at a much larger scale, and I think everyone should own the
+    answer to "who is this person."
+  </p>
+
+  <h2>Or do it yourself with this prompt</h2>
+  <p>
+    Below is the prompt that produces a site like this one. Paste it into Claude, attach your
+    resume, and answer the questions it asks. It works best in Claude Code, which can build,
+    deploy, and connect your domain. In a regular chat it will still interview you and draft every
+    page for you to publish yourself. Have three things ready first: a resume, a headshot, and a
+    domain you own. You can also
+    <a href="/own-your-name-prompt.md" download>download the prompt as a text file</a>.
+  </p>
+
+  <div class="prompt-tools">
+    <button type="button" id="copy-prompt" class="copy-btn" hidden>Copy prompt</button>
+  </div>
+  <pre class="prompt" id="prompt-text" tabindex="0" set:text={prompt}></pre>
+
+  <h2>What to expect</h2>
+  <p>
+    Claude interviews you in small rounds, then drafts every page for you to redline before it
+    builds anything. The questions about privacy are the ones people skip and regret: decide up
+    front what never goes on the site, and the prompt makes Claude hold that line everywhere,
+    including the machine-readable layers you'll never look at. You'll end up with a fast site at
+    your own domain, automatic HTTPS, free hosting, and a workflow where updating a page means
+    describing the change.
+  </p>
+
+  <script>
+    const btn = document.getElementById('copy-prompt');
+    const pre = document.getElementById('prompt-text');
+    if (btn && pre && navigator.clipboard) {
+      btn.hidden = false;
+      const label = btn.textContent;
+      btn.addEventListener('click', async () => {
+        try {
+          await navigator.clipboard.writeText(pre.textContent || '');
+          btn.textContent = 'Copied';
+          setTimeout(() => (btn.textContent = label), 2000);
+        } catch {
+          btn.textContent = 'Select the text and copy';
+        }
+      });
+    }
+  </script>
+</Base>
