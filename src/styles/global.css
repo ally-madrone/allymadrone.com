@@ -350,7 +350,6 @@ pre.prompt {
 .doors .status {
   display: block;
   width: max-content;
-  display: inline-block;
   font-family: system-ui, -apple-system, 'Segoe UI', sans-serif;
   font-size: 0.78rem;
   font-weight: 600;
