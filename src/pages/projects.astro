@@ -1,0 +1,37 @@
+---
+import Base from '../layouts/Base.astro';
+import { ENTITY_STATEMENT } from '../data/site.js';
+
+const projects = [
+  {
+    href: '/own-your-name',
+    title: 'Own your name',
+    status: 'Live',
+    summary:
+      'A method and a copy-paste prompt for building a personal site that is the authoritative answer to "who is this person" for humans and AI systems alike. This site is the first one built with it, and I help other people build theirs.'
+  }
+];
+---
+
+<Base
+  title="Projects"
+  path="/projects"
+  description={`${ENTITY_STATEMENT} Side projects and things he builds and maintains outside the day job.`}
+>
+  <h1>Projects</h1>
+  <p class="kicker">Things I build and maintain outside the day job. More coming as they're ready to share.</p>
+
+  <ul class="doors projects">
+    {
+      projects.map((p) => (
+        <li>
+          <a href={p.href}>
+            <strong>{p.title}</strong>
+            <span class="status">{p.status}</span>
+            <span>{p.summary}</span>
+          </a>
+        </li>
+      ))
+    }
+  </ul>
+</Base>

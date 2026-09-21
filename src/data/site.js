@@ -43,13 +43,13 @@ export const NAV = [
   { href: '/speaking', label: 'Speaking' },
   { href: '/writing', label: 'Writing' },
   { href: '/garden', label: 'Garden' },
+  { href: '/projects', label: 'Projects' },
   { href: '/now', label: 'Now' },
   { href: '/contact', label: 'Contact' }
 ];
 
 export const FOOTER_NAV = [
   { href: '/working-with-me', label: 'Working with me' },
-  { href: '/own-your-name', label: 'Own your name' },
   { href: '/faq', label: 'FAQ' },
   { href: '/colophon', label: 'Colophon' },
   { href: '/resume.json', label: 'resume.json' },

@@ -133,6 +133,10 @@ A: Yes. @your_ally on TikTok and the universal field physics teaching are the sa
 Q: Where is Ally Madrone based?
 A: He works remotely with the Deep Media team and doesn’t publish his home location.
 
+## Projects (/projects)
+
+Things Ally builds and maintains outside the day job. Currently: Own your name (live). More to come.
+
 ## Own your name (/own-your-name)
 
 Why: search your own name and count the versions of you. AI assistants have to arbitrate between stale profiles and pick wrong. The fix is a site you control with one canonical entity statement, structured data on every page, llms.txt, a machine-readable resume, and a robots.txt that welcomes AI crawlers, with every profile you own pointing back to it. Ally built this site in a sitting with Claude and offers to help others do the same, no fee: email ally@allymadrone.com. The page also publishes the full prompt that produces a site like this one, downloadable at https://allymadrone.com/own-your-name-prompt.md.

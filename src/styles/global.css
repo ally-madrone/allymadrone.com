@@ -342,3 +342,23 @@ pre.prompt {
   max-height: 32rem;
   overflow-y: auto;
 }
+
+.doors.projects {
+  grid-template-columns: 1fr;
+}
+
+.doors .status {
+  display: block;
+  width: max-content;
+  display: inline-block;
+  font-family: system-ui, -apple-system, 'Segoe UI', sans-serif;
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--accent);
+  border: 1px solid var(--accent);
+  border-radius: 999px;
+  padding: 0.05rem 0.55rem;
+  margin: 0 0 0.5rem;
+}
