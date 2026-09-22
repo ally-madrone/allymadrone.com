@@ -38,162 +38,121 @@ Ally Madrone is VP of Product at Deep Media, a content security infrastructure c
 
 ## Experience (/experience)
 
-VP of Product, Deep Media. January 2025 to present. Remote. Content security infrastructure company. Owns product strategy and roadmap across the platform: a composable API and MCP tool layer that exposes detection, retrieval, provenance, and case-assembly capabilities, Skills composed from those tools, Guardian agents on top that proactively investigate fraud, disinformation, terrorist and violent extremist content, brand safety, NCII, and threat intelligence across the surface, deep, and dark web, and an auditable evidence vault underneath. Stood up all-layer web threat intelligence, built the dark web collection feed for government and brand risk monitoring, and closed a custom data feed agreement with a government contractor. Deep Media's work is trusted by the U.S. Department of Defense and major technology platforms.
+The complete CV. Machine-readable at /resume.json.
 
-Director, Product & Business Development, Trust Stamp. May 2023 to December 2024. Biometric authentication and synthetic identity detection for financial services. First North American go-to-market hire: built a $10MM+ pipeline from a flat territory and managed seven U.S. sales reps. Authored the PRD for the deepfake detection API from scratch, evaluated internal R&D models against it, and packaged detection for financial crime, KYC, and identity fraud use cases. Led technical engagements with CISOs and security architects at banks and fintechs. Authored the technical responses to federal RFIs on synthetic identity detection, biometric liveness, and AI-enabled fraud threat modeling.
+Product leader for AI systems that find digital harms before the victims have to. I have spent my career at the intersection of identity, fraud, and trust and safety: in product, in enterprise sales, and as a founder, usually more than one at a time.
 
-Enterprise Account Executive, Veriff. November 2021 to May 2023. Global identity verification platform. Promoted from team lead to a quota-carrying enterprise role in eight months. Worked a $4MM+ enterprise pipeline and beat quota by 25% or more for five consecutive quarters. Enterprise procurement with General Counsels, CISOs, and Heads of Fraud at financial institutions.
+The method is the same every time. Find the work that repeats, redesign it around composable tools and agents, keep a human at the decision, and prove the result survives an audit.
 
-Sales Development Team Lead, Veriff. March 2021 to October 2021. Veriff's first U.S. hire. Opened the U.S. market, wrote the sales development strategy, and scaled the team from one to twelve. The team generated $50MM+ in new pipeline in its first twelve months.
+### VP of Product, Deep Media. January 2025 to present.
 
-Sales Development Representative, SheerID. June 2020 to March 2021. Portland, OR. Mapped buying committees across 200 target accounts to book meetings with VP-level marketing buyers at Fortune 500 retail brands.
+Remote. Content security infrastructure company. Deep Media’s work is trusted by the U.S. Department of Defense and major technology platforms.
 
-Founder & CEO, Root Connection. March 2015 to March 2021. Portland, OR. Founded a research and design firm and grew it from zero to $1MM in annual revenue in two years, then ran it profitably for six. Signed 50+ client contracts over six years. Built the marketing engine, ran operations and accounting, managed crews and 15+ vendors, and advised regulated agriculture clients on licensing and compliance.
-
-Sales & Marketing Lead, One Green World. June 2015 to June 2017 (concurrent). Managed a $500K+ wholesale book of business for a specialty nursery.
-
-Horticulture studies, Oregon State University. 2013 to 2015. Studied horticulture full time, then helped build the One Green World nursery and its web presence before joining as sales and marketing lead.
-
-Clinical Research Coordinator, Oregon Health & Science University. November 2007 to February 2013. Coordinated Phase 3 clinical trials: protocol adherence, human-subject scheduling and consent, procurement, cross-department coordination.
-
-Earlier (2003 to 2008): assistant manager of an automotive service location (hiring, training, budget, inventory, sales); program and budget lead for a community health nonprofit chapter working in the U.S. and Honduras.
-
-Recognition: Winner, Safety by Design Trust & Safety Hackathon, April 2024, with team FaceLock. Participant in the inaugural Trust & Safety Hackathon in San Francisco (July 2023) and the Paris edition (2024).
-
-Credentials: B.S., Horticulture (Research Option), Oregon State University. OSU Research Fellow, Pi Alpha Xi Honor Society, Permaculture Research Institute. Languages: English (native), Spanish (conversational). 
-
-## Roles (/roles)
-
-One career, read four ways: product leadership, sales leadership, enterprise sales, and founder. The facts are the same on every page; only the emphasis changes.
-
-## Product leadership (/roles/product-leadership)
-
-Product leader for AI systems that find digital harms before the victims have to.
-
-I lead product for content security and trust and safety platforms: detection, composable tools, and autonomous investigation agents that work the surface, deep, and dark web. At Deep Media I own strategy and roadmap across the platform. Before that I wrote the PRD for Trust Stamp’s deepfake detection API from a blank page.
-
-I came up through sales, so I build from the buyer’s problem backward and I ship with acceptance criteria, not vibes. I write the specs, build my own AI agents, map every feature to the regulation it has to satisfy, and hold the line on detection humility: probability is not ground truth, and the product never claims otherwise.
-
-Selected results:
-- Own product strategy and roadmap at Deep Media across a composable API and MCP tool layer, Skills composed from those tools, Guardian investigation agents on top, and an auditable evidence vault underneath.
-- Investigations that previously took weeks now take hours, with audit-ready output built for regulators and courts.
-- Stood up all-layer web threat intelligence across the surface, deep, and dark web, and built the dark web collection feed for government and brand risk monitoring.
+- Own product strategy and roadmap across the platform: a composable API and MCP tool layer that exposes detection, retrieval, provenance, and case-assembly capabilities, Skills composed from those tools, Guardian agents on top, and an auditable evidence vault underneath.
+- Guardian agents proactively investigate fraud, disinformation, terrorist and violent extremist content, brand safety, NCII, and threat intelligence across the surface, deep, and dark web. Investigations that previously took weeks now take hours, with audit-ready output built for regulators and courts.
+- Designed the human-in-the-loop controls: permission boundaries, confidence framing, escalation paths, and a reason code, model version, and reviewer signature on every decision.
+- Stood up all-layer web threat intelligence and built the dark web collection feed for government and brand risk monitoring.
+- Closed a custom data feed agreement with a government contractor to monitor extremist content and weapons-related incitement, scoping the collection, policy, and delivery terms.
+- Authored the pricing architecture and go-to-market roadmap the commercial team runs on.
 - Translate capabilities into compliance workflows for Chief Fraud Officers, Chief Risk Officers, and Heads of Trust & Safety under the DSA, the TAKE IT DOWN Act, and EU AI Act Article 50.
-- Authored the PRD for Trust Stamp’s deepfake detection API from scratch, evaluated internal R&D models against it, and packaged detection for financial crime, KYC, and identity fraud use cases.
+- Ran product and go-to-market as a one-person team in year one, and built the AI agent stack that runs my own operations.
+
+### Director, Product & Business Development, Trust Stamp. May 2023 to December 2024.
+
+Atlanta, GA (remote). Biometric authentication and synthetic identity detection for financial services.
+
+- First North American go-to-market hire. Inherited a flat U.S. territory and built a $10MM+ pipeline by mapping buying committees across financial institutions, social platforms, and dating apps.
+- Authored the PRD for the deepfake detection API from scratch, evaluated internal R&D models against it, and packaged detection for financial crime, KYC, and identity fraud use cases.
+- Hired and managed seven U.S. sales reps and served as the technical closer, working biometric presentation attack detection, false-accept and false-reject thresholds, and synthetic identity ring detection directly with security architects.
 - Mapped synthetic identity ring behavior to detection workflows and investigation handoff protocols with fraud operations and compliance leadership.
-- Built or led teams that generated $60MM+ in pipeline in prior sales roles, which is why I prioritize the roadmap on what buyers will actually pay for.
-- Built the AI agent stack that runs my own operations, which doubles as a live product lab.
+- Set a privacy-first, security-forward engagement standard for integrity-focused clients, and expanded global document coverage and onboarding UX in the core products.
+- Authored the technical responses to federal RFIs on synthetic identity detection, biometric liveness, and AI-enabled fraud threat modeling.
 
-"Ally quickly demonstrated the ability to build strong relationships with clients and manage complex RFI/RFP responses. His strategic thinking and customer-focused approach earned him the trust of both clients and colleagues." Kinny Chan, Chief Commercial Officer, Trust Stamp
+### Enterprise Account Executive, Veriff. November 2021 to May 2023.
 
-## Sales leadership (/roles/sales-leadership)
+Remote, U.S. market. Global identity verification platform.
 
-Enterprise sales leader for trust and safety, identity, fraud, and AI content security.
-
-I have spent more than a decade selling into regulated buyers: banks, platforms, government contractors, and the compliance, fraud, and trust and safety teams inside them. I have beaten quota by 25% or more for five straight quarters, built two sales teams from zero, and been the first go-to-market hire in a new market twice.
-
-I sell as the technical closer. I write the PRDs, so I can talk a security architect through presentation attack detection or walk a Chief Risk Officer through DSA obligations without a solutions engineer on the call. Buyers trust that, and it shortens cycles.
-
-Selected results:
-- Veriff’s first U.S. hire: opened the market with no playbook, wrote the sales development strategy, and scaled the team from one to 12 in under a year at 115% of team quota for two consecutive quarters. The team generated $50MM+ in new pipeline in its first twelve months.
-- Beat quota by 25% or more for five consecutive quarters as an enterprise account executive at Veriff, on a $4MM+ pipeline.
-- Trust Stamp’s first North American go-to-market hire: built a $10MM+ pipeline from a flat territory across financial institutions, social platforms, and dating apps, and hired and managed seven U.S. sales reps.
-- Served as the technical closer for the U.S. team, working biometric presentation attack detection, false-accept and false-reject thresholds, and synthetic identity ring detection directly with security architects.
-- Closed a custom data feed agreement with a government contractor to monitor extremist content and weapons-related incitement.
-- Grew my own company from zero to $1MM in annual revenue in two years and signed 50+ client contracts over six years, all sold myself.
-- Regular speaker to the buyers themselves: IAFCI, NABCRMP, TrustCon, the ICBA Fraud and Scams Task Force, the TIAA Fraud Summit, and Google’s Trust & Safety CX Summit.
-
-"Ally started on my team as an SDR and immediately began having an impact within a month of hiring. In less than one year, he was promoted to Enterprise Account Executive where he continued to show off skills for sourcing and maturing sales opportunities." Brian Krause, VP of Global Revenue, Veriff
-
-"Ally quickly demonstrated the ability to build strong relationships with clients and manage complex RFI/RFP responses. His strategic thinking and customer-focused approach earned him the trust of both clients and colleagues." Kinny Chan, Chief Commercial Officer, Trust Stamp
-
-## Enterprise sales (/roles/enterprise-sales)
-
-Enterprise account executive for trust and safety, identity, fraud, and AI content security.
-
-I hunt and close enterprise deals with regulated buyers: banks, platforms, government contractors, and the fraud, risk, and trust and safety teams inside them. Five straight quarters at 125%+ of quota on a $4MM+ pipeline at Veriff. $10MM+ of pipeline built from a flat territory at Trust Stamp. A custom data feed agreement with a government contractor at Deep Media, sourced and closed by me.
-
-I close as the technical seller. I have written the PRDs, so I can take a CISO through presentation attack detection or a Chief Risk Officer through DSA obligations without a solutions engineer on the call. That is what shortens six-month procurement cycles: fewer handoffs, faster answers, and a buyer who trusts the person across the table.
-
-Selected results:
-- 125%+ of quota for five consecutive quarters at Veriff on a $4MM+ enterprise pipeline.
-- Built a $10MM+ pipeline from nothing as Trust Stamp’s first North American GTM hire, mapping buying committees across banks, social platforms, and dating apps.
-- Sourced and closed a custom data feed agreement with a government contractor to monitor extremist content and weapons-related incitement.
-- Ran six-month enterprise cycles end to end: ROI models for finance, redlines with General Counsels, infosec reviews with CISOs, and technical responses to federal RFIs.
-- Built ROI models showing prospects what conversion-rate gains were worth in onboarding friction, and used them to open budget that did not exist at the start of the cycle.
 - Promoted from team lead to a quota-carrying enterprise role in eight months.
-- Signed 50+ client contracts over six years for my own company, which I grew to $1MM in annual revenue.
+- Worked a $4MM+ enterprise pipeline and beat quota by 25% or more for five consecutive quarters.
+- Built the digital communities practice, covering marketplaces and dating, from nothing.
+- Built ROI models showing prospects what conversion-rate gains were worth in onboarding friction, and used them to open budget that did not exist at the start of the cycle.
+- Ran six-month enterprise procurement cycles end to end with General Counsels, CISOs, and Heads of Fraud at financial institutions, and built deep expertise in KYC and AML-adjacent identity workflows.
 
-"Ally started on my team as an SDR and immediately began having an impact within a month of hiring. In less than one year, he was promoted to Enterprise Account Executive where he continued to show off skills for sourcing and maturing sales opportunities." Brian Krause, VP of Global Revenue, Veriff
+### Sales Development Team Lead, Veriff. March 2021 to October 2021.
 
-"Ally quickly demonstrated the ability to build strong relationships with clients and manage complex RFI/RFP responses. His strategic thinking and customer-focused approach earned him the trust of both clients and colleagues." Kinny Chan, Chief Commercial Officer, Trust Stamp
+Remote, U.S. market. Veriff’s first U.S. hire.
 
-## Founder and zero-to-one (/roles/founder)
+- Opened the U.S. market with no playbook and wrote the sales development strategy from scratch.
+- Scaled the team from one to 12 in under a year at 115% of team quota for two consecutive quarters. The team generated $50MM+ in new pipeline in its first twelve months.
+- Wrote the first ten email cadences and cold-call scripts for North America, iterating weekly on subject lines and send windows.
 
-Zero-to-one builder in trust and safety: product, revenue, and markets.
+### Sales Development Representative, SheerID. June 2020 to March 2021.
 
-I have opened markets from zero four times: my own company, Veriff’s U.S. sales development team, Trust Stamp’s North American go-to-market, and Deep Media’s product and go-to-market as a one-person team. Each time I wrote the playbook, sold the first deals myself, and then built what it took to scale.
+Portland, OR.
 
-My domain is content security and trust and safety: synthetic media, fraud networks, identity, and the regulation now shaping all of it. I write PRDs, build AI agents, close enterprise contracts, and speak regularly to the fraud investigators and trust and safety teams who are the buyers. The through line since my first company is the same: understand a system well enough to protect the people inside it.
+- Mapped buying committees across 200 target accounts to book meetings with VP-level marketing buyers at Fortune 500 retail brands.
 
-Selected results:
-- Root Connection: founded a research and design firm and grew it from zero to $1MM in annual revenue in two years, ran it profitably for six, and signed 50+ client contracts I sold myself.
-- Deep Media: sole product and go-to-market lead in year one. Stood up all-layer web threat intelligence, built the dark web collection feed, closed a custom data feed agreement with a government contractor, and authored the pricing architecture and go-to-market roadmap the commercial team runs on.
-- Veriff: first U.S. hire. Built the sales development function from one to 12 people and $50MM+ in first-year pipeline.
-- Trust Stamp: first North American go-to-market hire. Built a $10MM+ pipeline from a flat territory while writing the PRD for a new product line.
-- Ran a company’s whole back office: operations, accounting, delivery with five-person crews and 15+ vendors, and grants written and won for agricultural research.
-- Winner, Safety by Design Trust & Safety Hackathon (2024), with team FaceLock.
+### Founder & CEO, Root Connection. March 2015 to March 2021.
 
-## Now (/now)
+Portland, OR. Scientific research, ecological design-build, and regulated agriculture consulting.
 
-Updated August 4, 2026. Working on Guardian, Deep Media's agent layer: autonomous AI agents that investigate fraud, disinformation, and other digital harms and package what they find as audit-ready intelligence, with a human at the helm. Writing about AI-enabled social engineering, detection honesty, and permaculture ethics applied to digital spaces. Next appearance: IAFCI International Training Conference, Grand Hyatt Nashville, August 25, 2026, presenting "AI: both the cause and solution for all fraud fighters" at 2:00pm.
+- Built the company from zero to $1MM in annual revenue in two years and ran it profitably for six.
+- Signed 50+ client contracts over six years by working multi-stakeholder deals across farm owners, contractors, and municipal planners.
+- Ran full-stack marketing: search ads, SEO, the website, email, and regional trade shows.
+- Ran operations, accounting, and delivery: five-person crews, 15+ material vendors, and complex builds finished on time and under budget.
+- Advised regulated agriculture clients on licensing, multi-agency compliance, and audit-ready operations, and wrote and won grants for agricultural research projects.
+- Applied formal research methodology to client projects, the foundation for how I now design products and investigation frameworks.
 
-## Working with me (/working-with-me)
+### Sales & Marketing Lead, One Green World. June 2015 to June 2017.
 
-Operating principles: Direct, no fluff. Principles over rules. Systems and externalized memory (decisions, context, and commitments live in shared systems). Launch gates with real acceptance criteria. Human at the helm (AI does the volume, a human owns the judgment). Detection humility (probability is not ground truth; "deepfake likely" is an honest sentence, "this is real" is not).
+Portland, OR (concurrent with Root Connection). Specialty nursery.
 
-Delegation: hands people problems, not tasks, with context to own them. Values bad news early.
+- Managed a $500K+ wholesale book of business and drove B2B retail expansion.
+- Ran the weekly newsletter, social channels, and digital catalog, and represented the company at four trade shows a year.
 
-How he works best: Ally is AuDHD and treats it as a design input. Deep focus, guarded maker time, batched meetings, pattern recognition across systems, externalized memory, written agendas, clear acceptance criteria.
+### Horticulture studies, Oregon State University. 2013 to 2015.
 
-## Speaking (/speaking)
+- Studied horticulture full time, then helped build the One Green World nursery and its web presence before joining as sales and marketing lead.
 
-Topics: AI-generated social engineering and why the human firewall fails. Deepfakes and synthetic media in financial crime, with live demos. Synthetic identity fraud: detection, attribution, and investigation. Agentic AI for investigators, with a human at the helm. What detection can honestly claim, and what it can't.
+### Clinical Research Coordinator, Oregon Health & Science University. November 2007 to February 2013.
 
-Speaking record:
-- Aug 25, 2026: IAFCI International Training Conference, Grand Hyatt Nashville. "AI: both the cause and solution for all fraud fighters," 2:00pm.
-- May 2026: IAFCI Cyber Fraud Summit, Willis Tower, Chicago. "Scripted to Deceive: AI-Generated Social Engineering and the Human Firewall."
-- Nov 4, 2025: ICBA Fraud and Scams Task Force. Deepfakes session.
-- Oct 2025: IAFCI Florida Chapter Conference, Cape Coral. "The Ghost in the Machine: Investigating Financial Crime in the Age of AI," with live deepfake-call demo.
-- Aug 2025: NABCRMP Global Summit, New Orleans. Panel: "The Future is Now: Emerging GRC Technologies Transforming Compliance & Risk Management."
-- Jun 26, 2025: IAFCI virtual presentation. Deepfakes session.
-- Jun 18, 2025: IAFCI × CrimeDex webinar. "Threats: Financial Crime & Deepfakes," with live deepfake demo.
-- May 27, 2025: IAFCI Banking Fraud Virtual Meeting. "Threats: Financial Crime & Deepfakes."
-- May 2, 2025: IAFCI Cyber Fraud Summit, Charlotte. Deepfake course presentation.
-- Apr 30, 2025: 10th Annual TIAA Fraud Summit (with IAFCI), Charlotte. Organized and moderated "The 'So What' of AI" generative AI panel.
-- 2024: Google Trust & Safety CX Summit. Biometric trust and platform safety.
-- 2023 to 2024: Association of Payment Professionals. Committee member and speaker on fraud and identity.
+Portland, OR. Phase 3 clinical trials. Sponsors included Pfizer, Abbott, and Galderma.
 
-Member of the Trust & Safety Professional Association (TSPA) and the International Association of Financial Crimes Investigators (IAFCI).
-- Aug 2024: IAFCI International Training Conference, Henderson NV. Synthetic identity fraud session.
-- Jul 2024: TrustCon, San Francisco. Deepfake detection and content authenticity.
-- Apr 2024: IAFCI Cyber Fraud Summit, Sarasota FL. Co-presented on identity fraud and synthetic media.
-- Jan 2024: NABCRMP Annual Summit & Awards, Atlanta. Presented on fraud and compliance technology.
-- 2023: NEACH Fraud Training Week and Fraud Summit series. Evolving fraud techniques and detection strategies.
-- 2022: Identity Week. Identity verification and fraud prevention, representing Veriff.
-- 2015 to 2021: regular talks at trade shows, conventions, universities, and garden clubs across the Pacific Northwest for Root Connection and One Green World. IAFCI lists Ally as a speaker and trainer; several sessions were multi-hour courses for working investigators.
+- Coordinated Phase 3 clinical trials for five years: protocol adherence, human-subject scheduling and consent workflows, supply procurement, and cross-department coordination in a regulated research environment.
+- Bilingual Spanish point of contact for patients and families.
 
-Podcasts: The Protectors (multiple episodes), Digital Fortress.
+### Earlier. 2003 to 2008.
 
-Booking: ally@allymadrone.com.
+- Assistant manager of an automotive service location, responsible for hiring, training, budget, inventory, and sales.
+- Program and budget lead for a community health nonprofit chapter working in the U.S. and Honduras, including Spanish-language program leadership.
 
-## Writing (/writing)
+Skills:
+- Content security and trust and safety product strategy
+- Agentic AI architecture for fraud and trust and safety investigation
+- Multi-agent and tool orchestration, Model Context Protocol (MCP) and API design
+- Human-in-the-loop governance, agent evaluation, and audit-ready reporting
+- Deepfake and generative AI forensics (audio, video, image, text)
+- Synthetic identity fraud detection and attribution
+- KYC, biometric liveness, and presentation attack detection
+- Regulatory mapping: DSA, EU AI Act, TAKE IT DOWN Act
+- Enterprise and government procurement
+- Enterprise sales and go-to-market in regulated industries
 
-Newsletter: Your Ally at yourally.substack.com. Long-form essays on content security, AI governance, and acting with integrity toward the systems we're entangled with. Shorter pieces on LinkedIn (linkedin.com/in/allymadrone). Podcast guest on The Protectors and Digital Fortress.
+Affiliations:
+- Member, Trust & Safety Professional Association (TSPA)
+- Member, International Association of Financial Crimes Investigators (IAFCI), which lists him as a speaker and trainer
+- Committee member and speaker, Association of Payment Professionals (2023 to 2024)
 
-## Garden (/garden)
+Recognition:
+- Winner, Safety by Design Trust & Safety Hackathon, with team FaceLock, April 2024.
+- Participant, inaugural Trust & Safety Hackathon, San Francisco, July 2023.
+- Participant, Trust & Safety Hackathon, Paris, 2024.
 
-The whole-self section. Permaculture and homesteading with his family. Traditional woodworking with hand tools. Birding. A self-hosted home lab running automation and AI agents. Genealogy research with primary-source discipline. A teaching practice in universal field physics, a contemplative framework for thinking about consciousness and interconnection. Same golden thread throughout: acting with integrity toward the systems we're entangled with.
+Education: B.S., Horticulture (Research Option), Oregon State University. OSU Research Fellow, Pi Alpha Xi Honor Society, Permaculture Research Institute. Languages: English (native), Spanish (conversational).
+
+What colleagues say:
+- "Ally quickly demonstrated the ability to build strong relationships with clients and manage complex RFI/RFP responses. His strategic thinking and customer-focused approach earned him the trust of both clients and colleagues." Kinny Chan, Chief Commercial Officer, Trust Stamp
+- "Ally started on my team as an SDR and immediately began having an impact within a month of hiring. In less than one year, he was promoted to Enterprise Account Executive where he continued to show off skills for sourcing and maturing sales opportunities." Brian Krause, VP of Global Revenue, Veriff
 
 ## FAQ (/faq)
 

@@ -7,15 +7,14 @@ export function getStaticPaths() {
 }
 
 const { role } = Astro.props;
-const others = ROLES.filter((r) => r.slug !== role.slug);
 ---
 
 <Base
-  title={role.label}
+  title={`Resume: ${role.label}`}
   path={`/roles/${role.slug}`}
   description={`Ally Madrone's experience read for ${role.label.toLowerCase()} roles. ${role.headline}`}
 >
-  <p class="kicker"><a href="/roles">Roles</a> · {role.label}</p>
+  <p class="kicker">Ally Madrone · {role.label}</p>
   <h1>{role.headline}</h1>
 
   {role.summary.map((p, i) => <p class={i === 0 ? 'lede' : undefined}>{p}</p>)}
@@ -61,13 +60,5 @@ const others = ROLES.filter((r) => r.slug !== role.slug);
   <p>
     If you're hiring for this kind of role, <a href="/contact">get in touch</a>. How I operate day to
     day is on <a href="/working-with-me">working with me</a>.
-  </p>
-  <p>
-    The same record, read other ways:
-    {others.map((r, i) => (
-      <>
-        <a href={`/roles/${r.slug}`}>{r.label.toLowerCase()}</a>{i < others.length - 1 ? ', ' : '.'}
-      </>
-    ))}
   </p>
 </Base>
