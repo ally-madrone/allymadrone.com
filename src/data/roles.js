@@ -70,7 +70,7 @@ export const ROLES = [
       'Personally sold 50+ client contracts over 6 years for my own company, which I grew to $1M in annual revenue.'
     ],
     experience: [
-      ['deepmedia', ['licensing', 'compliance', 'gov']],
+      ['deepmedia', ['licensing', 'compliance']],
       ['truststamp', ['gtm', 'team', 'rfi']],
       ['veriff-ae', ['quota', 'roi', 'cycles', 'promo']],
       ['veriff-sdr', ['open', 'scale', 'cadences']],
