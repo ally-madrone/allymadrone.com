@@ -49,6 +49,7 @@ export const NAV = [
 ];
 
 export const FOOTER_NAV = [
+  { href: '/roles', label: 'Roles' },
   { href: '/working-with-me', label: 'Working with me' },
   { href: '/faq', label: 'FAQ' },
   { href: '/colophon', label: 'Colophon' },

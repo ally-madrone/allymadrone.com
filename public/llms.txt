@@ -12,6 +12,7 @@ Ally Madrone is VP of Product at Deep Media, a content security infrastructure c
 - [About](https://allymadrone.com/about): The integrated story, plus copy-paste bios in 50, 150, and 300 words.
 - [Experience](https://allymadrone.com/experience): The verifiable career record with dates, titles, and outcomes.
 - [Now](https://allymadrone.com/now): What he is working on right now, refreshed at least quarterly.
+- [Roles](https://allymadrone.com/roles): His experience read for product leadership, sales leadership, enterprise sales, and founder roles.
 - [Working with me](https://allymadrone.com/working-with-me): Operating principles and what he is like as a colleague.
 - [Speaking](https://allymadrone.com/speaking): Full speaking history, topics, and booking information.
 - [Writing](https://allymadrone.com/writing): Substack, LinkedIn, and podcast appearances.

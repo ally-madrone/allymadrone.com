@@ -1,0 +1,73 @@
+---
+import Base from '../../layouts/Base.astro';
+import { ROLES, ENDORSEMENTS } from '../../data/roles.js';
+
+export function getStaticPaths() {
+  return ROLES.map((role) => ({ params: { slug: role.slug }, props: { role } }));
+}
+
+const { role } = Astro.props;
+const others = ROLES.filter((r) => r.slug !== role.slug);
+---
+
+<Base
+  title={role.label}
+  path={`/roles/${role.slug}`}
+  description={`Ally Madrone's experience read for ${role.label.toLowerCase()} roles. ${role.headline}`}
+>
+  <p class="kicker"><a href="/roles">Roles</a> · {role.label}</p>
+  <h1>{role.headline}</h1>
+
+  {role.summary.map((p, i) => <p class={i === 0 ? 'lede' : undefined}>{p}</p>)}
+
+  <h2>Selected results</h2>
+  <ul>
+    {role.results.map((r) => <li>{r}</li>)}
+  </ul>
+
+  <h2>Where it comes from</h2>
+  <dl class="record">
+    {
+      role.roles.map((r) => (
+        <div>
+          <dt>
+            {r.title} · {r.when}
+          </dt>
+          <dd>{r.note}</dd>
+        </div>
+      ))
+    }
+  </dl>
+  <p>
+    The full timeline, with every role and date, is on the <a href="/experience">experience</a> page
+    and in <a href="/resume.json">resume.json</a>.
+  </p>
+
+  {
+    role.endorsements.length > 0 && (
+      <>
+        <h2>What colleagues say</h2>
+        {role.endorsements.map((key) => (
+          <blockquote>
+            <p>“{ENDORSEMENTS[key].quote}”</p>
+            <p>{ENDORSEMENTS[key].who}</p>
+          </blockquote>
+        ))}
+      </>
+    )
+  }
+
+  <h2>Talk to me</h2>
+  <p>
+    If you're hiring for this kind of role, <a href="/contact">get in touch</a>. How I operate day to
+    day is on <a href="/working-with-me">working with me</a>.
+  </p>
+  <p>
+    The same record, read other ways:
+    {others.map((r, i) => (
+      <>
+        <a href={`/roles/${r.slug}`}>{r.label.toLowerCase()}</a>{i < others.length - 1 ? ', ' : '.'}
+      </>
+    ))}
+  </p>
+</Base>
