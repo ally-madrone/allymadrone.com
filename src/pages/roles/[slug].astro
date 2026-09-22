@@ -1,6 +1,9 @@
 ---
+// Unlisted: shared by direct link only. Not in nav, sitemap, or llms files; crawlable by design.
 import Base from '../../layouts/Base.astro';
-import { ROLES, ENDORSEMENTS } from '../../data/roles.js';
+import CvRole from '../../components/CvRole.astro';
+import CvTail from '../../components/CvTail.astro';
+import { ROLES } from '../../data/roles.js';
 
 export function getStaticPaths() {
   return ROLES.map((role) => ({ params: { slug: role.slug }, props: { role } }));
@@ -12,53 +15,31 @@ const { role } = Astro.props;
 <Base
   title={`Resume: ${role.label}`}
   path={`/roles/${role.slug}`}
-  description={`Ally Madrone's experience read for ${role.label.toLowerCase()} roles. ${role.headline}`}
+  description={`Ally Madrone, ${role.label}. ${role.headline}.`}
 >
   <p class="kicker">Ally Madrone · {role.label}</p>
   <h1>{role.headline}</h1>
 
   {role.summary.map((p, i) => <p class={i === 0 ? 'lede' : undefined}>{p}</p>)}
 
-  <h2>Selected results</h2>
+  <h2>{role.secondTitle}</h2>
   <ul>
-    {role.results.map((r) => <li>{r}</li>)}
+    {role.second.map((r) => <li>{r}</li>)}
   </ul>
 
-  <h2>Where it comes from</h2>
+  <h2>Experience</h2>
   <dl class="record">
-    {
-      role.roles.map((r) => (
-        <div>
-          <dt>
-            {r.title} · {r.when}
-          </dt>
-          <dd>{r.note}</dd>
-        </div>
-      ))
-    }
+    {role.experience.map(([id, ids, opts = {}]) => <CvRole id={id} ids={ids} scope={opts.scope} />)}
   </dl>
   <p>
-    The full timeline, with every role and date, is on the <a href="/experience">experience</a> page
-    and in <a href="/resume.json">resume.json</a>.
+    Every role and date is on the <a href="/experience">full CV</a>.
   </p>
 
-  {
-    role.endorsements.length > 0 && (
-      <>
-        <h2>What colleagues say</h2>
-        {role.endorsements.map((key) => (
-          <blockquote>
-            <p>“{ENDORSEMENTS[key].quote}”</p>
-            <p>{ENDORSEMENTS[key].who}</p>
-          </blockquote>
-        ))}
-      </>
-    )
-  }
+  <CvTail />
 
   <h2>Talk to me</h2>
   <p>
-    If you're hiring for this kind of role, <a href="/contact">get in touch</a>. How I operate day to
-    day is on <a href="/working-with-me">working with me</a>.
+    <a href="/contact">Get in touch</a>. How I operate day to day is on
+    <a href="/working-with-me">working with me</a>.
   </p>
 </Base>

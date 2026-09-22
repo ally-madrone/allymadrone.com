@@ -367,3 +367,9 @@ pre.prompt {
   padding: 0.05rem 0.55rem;
   margin: 0 0 0.5rem;
 }
+
+.cv-meta {
+  font-style: italic;
+  color: var(--muted);
+  margin-bottom: 0.4rem;
+}

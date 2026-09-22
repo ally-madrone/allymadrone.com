@@ -1,19 +1,9 @@
 ---
 import Base from '../layouts/Base.astro';
+import CvRole from '../components/CvRole.astro';
+import CvTail from '../components/CvTail.astro';
 import { ENTITY_STATEMENT } from '../data/site.js';
-import {
-  CV_SUMMARY,
-  WORK,
-  SKILLS,
-  AFFILIATIONS,
-  AWARDS,
-  EDUCATION,
-  LANGUAGES,
-  fmtDate
-} from '../data/cv.js';
-import { ENDORSEMENTS } from '../data/roles.js';
-
-const place = (w) => [w.location, w.context].filter(Boolean).map((s) => s.replace(/\.$/, '')).join('. ');
+import { CV_SUMMARY, WORK, SKILLS } from '../data/cv.js';
 ---
 
 <Base
@@ -29,25 +19,9 @@ const place = (w) => [w.location, w.context].filter(Boolean).map((s) => s.replac
 
   {CV_SUMMARY.map((p, i) => <p class={i === 0 ? 'lede' : undefined}>{p}</p>)}
 
-  <h2>Timeline</h2>
+  <h2>Experience</h2>
   <dl class="record">
-    {
-      WORK.map((w) => (
-        <div>
-          <dt>
-            {w.kind === 'earlier' ? 'Earlier' : `${w.title}, ${w.org}`} · {fmtDate(w.start)} – {fmtDate(w.end)}
-          </dt>
-          <dd>
-            {place(w) && <p>{place(w)}.</p>}
-            <ul>
-              {w.highlights.map((h) => (
-                <li>{h}</li>
-              ))}
-            </ul>
-          </dd>
-        </div>
-      ))
-    }
+    {WORK.map((w) => <CvRole id={w.id} scope={true} />)}
   </dl>
 
   <h2>Skills</h2>
@@ -55,40 +29,5 @@ const place = (w) => [w.location, w.context].filter(Boolean).map((s) => s.replac
     {SKILLS.map((s) => <li>{s}</li>)}
   </ul>
 
-  <h2>Speaking</h2>
-  <p>
-    Eighteen engagements since 2022, including the IAFCI International Training Conference, the IAFCI
-    Cyber Fraud Summit, TrustCon, Google’s Trust &amp; Safety CX Summit, the NABCRMP Global Summit,
-    the NEACH fraud series, Identity Week, and the ICBA Fraud and Scams Task Force, several of them
-    multi-hour courses for working investigators. The full record and topics are on the
-    <a href="/speaking">speaking</a> page.
-  </p>
-
-  <h2>Affiliations</h2>
-  <ul>
-    {AFFILIATIONS.map((a) => <li>{a}</li>)}
-  </ul>
-
-  <h2>Recognition</h2>
-  <ul>
-    {AWARDS.map((a) => <li>{a.title}, {fmtDate(a.date)}.</li>)}
-  </ul>
-
-  <h2>Education and languages</h2>
-  <ul>
-    <li>
-      {EDUCATION.studyType}, {EDUCATION.area}, {EDUCATION.institution}. {EDUCATION.honors.join(', ')}.
-    </li>
-    <li>Languages: {LANGUAGES.map((l) => `${l.language} (${l.fluency.toLowerCase()})`).join(', ')}.</li>
-  </ul>
-
-  <h2>What colleagues say</h2>
-  {
-    Object.values(ENDORSEMENTS).map((e) => (
-      <blockquote>
-        <p>“{e.quote}”</p>
-        <p>{e.who}</p>
-      </blockquote>
-    ))
-  }
+  <CvTail />
 </Base>

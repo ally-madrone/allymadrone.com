@@ -1,0 +1,18 @@
+---
+// One experience entry. `ids` selects and orders bullets from the pool; omit it to show all.
+import { byId, fmtDate } from '../data/cv.js';
+const { id, ids = null, scope = false } = Astro.props;
+const w = byId(id);
+const bullets = ids ? ids.map((b) => w.bullets.find((x) => x.id === b) ?? (() => { throw new Error(`Unknown bullet ${id}.${b}`); })()) : w.bullets;
+---
+
+<div>
+  <dt>{w.title}, {w.org} · {fmtDate(w.start)} – {fmtDate(w.end)}</dt>
+  <dd>
+    <p class="cv-meta">{w.location} · {w.context}</p>
+    {scope && w.scope && <p><strong>Scope:</strong> {w.scope}</p>}
+    <ul>
+      {bullets.map((b) => <li>{b.text}</li>)}
+    </ul>
+  </dd>
+</div>

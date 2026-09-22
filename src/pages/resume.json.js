@@ -27,15 +27,15 @@ export function GET() {
         return { network: PROFILES[host], username: url.split('/').pop().replace('@', ''), url };
       })
     },
-    work: WORK.filter((w) => !w.kind).map((w) => ({
+    work: WORK.map((w) => ({
       name: w.org,
       position: w.title,
       ...(w.url ? { url: w.url } : {}),
       startDate: w.start,
       ...(w.end ? { endDate: w.end } : {}),
       location: w.location,
-      summary: w.context,
-      highlights: w.highlights
+      summary: [w.context, w.scope].filter(Boolean).join(' '),
+      highlights: w.bullets.map((b) => b.text)
     })),
     education: [
       {

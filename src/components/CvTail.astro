@@ -1,0 +1,34 @@
+---
+// Sections shared, word for word, by the full CV and every role variant.
+import { AFFILIATIONS, SPEAKING_LINE, AWARDS, EDUCATION, LANGUAGES, LANGUAGE_NOTE, ENDORSEMENTS, fmtDate } from '../data/cv.js';
+const { endorsements = true } = Astro.props;
+---
+
+<h2>Affiliations and speaking</h2>
+<ul>
+  <li>{AFFILIATIONS.join(' ')}</li>
+  <li>{SPEAKING_LINE} The full record is on the <a href="/speaking">speaking</a> page.</li>
+  <li>{AWARDS.map((a) => `${a.title} (${fmtDate(a.date)})`).join('. ')}.</li>
+</ul>
+
+<h2>Education and languages</h2>
+<ul>
+  <li>{EDUCATION.studyType}, {EDUCATION.area}, {EDUCATION.institution}. {EDUCATION.honors.join('. ')}.</li>
+  <li>
+    Languages: {LANGUAGES.map((l) => `${l.language} (${l.fluency.toLowerCase()})`).join(', ')}. {LANGUAGE_NOTE}
+  </li>
+</ul>
+
+{
+  endorsements && (
+    <>
+      <h2>Endorsements</h2>
+      {ENDORSEMENTS.map((e) => (
+        <blockquote>
+          <p>“{e.quote}”</p>
+          <p>{e.who}</p>
+        </blockquote>
+      ))}
+    </>
+  )
+}
