@@ -23,7 +23,7 @@ const canonical = path === '/' ? SITE_URL : `${SITE_URL}${path}`;
 const graph = [PERSON_JSONLD];
 if (extraSchema) graph.push(...(Array.isArray(extraSchema) ? extraSchema : [extraSchema]));
 const jsonld = { '@context': 'https://schema.org', '@graph': graph };
-const pageTitle = path === '/' ? `${NAME}: VP of Product at Deep Media` : `${title} · ${NAME}`;
+const pageTitle = path === '/' ? `${NAME}: AI systems that find digital harms` : `${title} · ${NAME}`;
 ---
 
 <html lang="en">

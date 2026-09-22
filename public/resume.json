@@ -2,7 +2,7 @@
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
     "name": "Ally Madrone",
-    "label": "VP of Product at Deep Media",
+    "label": "Product leader, AI systems for trust and safety and fraud investigation",
     "image": "https://allymadrone.com/images/ally-madrone.jpg",
     "email": "ally@allymadrone.com",
     "url": "https://allymadrone.com",
@@ -50,15 +50,15 @@
       "url": "https://deepmedia.ai",
       "startDate": "2025-01",
       "location": "Remote",
-      "summary": "Content security infrastructure company. Owns product strategy and roadmap across the platform: Shield (detection and API layer built around the Content Genome engine), Skills (composable capability layer), and Guardian (autonomous AI agents that proactively investigate fraud, disinformation, and other digital harms across the surface, deep, and dark web). Deep Media's work is trusted by the U.S. Department of Defense and major technology platforms. Stood up all-layer web threat intelligence, built the dark web collection feed that opened a $2B+ addressable segment in government and brand risk monitoring, and closed a custom data feed agreement with a government contractor."
+      "summary": "Content security infrastructure company. Owns product strategy and roadmap across the platform: a composable API and MCP tool layer (detection, retrieval, provenance, and case assembly), Skills composed from those tools, Guardian agents that proactively investigate fraud, disinformation, and other digital harms across the surface, deep, and dark web, and an auditable evidence vault underneath. Deep Media's work is trusted by the U.S. Department of Defense and major technology platforms. Stood up all-layer web threat intelligence, built the dark web collection feed for government and brand risk monitoring, and closed a custom data feed agreement with a government contractor."
     },
     {
       "name": "Trust Stamp",
       "position": "Director, Product & Business Development",
       "startDate": "2023-05",
-      "endDate": "2025-12",
+      "endDate": "2024-12",
       "location": "Atlanta, GA",
-      "summary": "Biometric authentication and synthetic identity detection for financial services. First North American go-to-market hire: built a $10MM+ pipeline from a flat territory and hired and managed seven U.S. sales reps. Owned the deepfake detection API end to end, from authoring the PRD to packaging detection for financial crimes, KYC, and identity fraud use cases. Authored 50-page technical responses to federal RFIs."
+      "summary": "Biometric authentication and synthetic identity detection for financial services. First North American go-to-market hire: built a $10MM+ pipeline from a flat territory and hired and managed seven U.S. sales reps. Authored the PRD for the deepfake detection API from scratch, evaluated internal R&D models against it, and packaged detection for financial crime, KYC, and identity fraud use cases. Authored the technical responses to federal RFIs."
     },
     {
       "name": "Veriff",
@@ -90,7 +90,7 @@
       "startDate": "2015-03",
       "endDate": "2021-03",
       "location": "Portland, OR",
-      "summary": "Founded a research and design firm and grew it from zero to $1MM in annual revenue in two years, then ran it profitably for six. Sold 50+ contracts worth $100K or more each, built the marketing engine, ran operations and accounting, managed crews and 15+ vendors, and advised regulated agriculture clients on licensing and compliance."
+      "summary": "Founded a research and design firm and grew it from zero to $1MM in annual revenue in two years, then ran it profitably for six. Signed 50+ client contracts over six years, built the marketing engine, ran operations and accounting, managed crews and 15+ vendors, and advised regulated agriculture clients on licensing and compliance."
     },
     {
       "name": "One Green World",
@@ -115,19 +115,11 @@
       "area": "Horticulture (Research Option)",
       "studyType": "B.S.",
       "courses": [
-        "Dean's List",
-        "A.L. Strand Memorial Scholarship in Entomology",
+        
         "OSU Research Fellow",
         "Pi Alpha Xi Honor Society",
         "Permaculture Research Institute"
       ]
-    }
-  ],
-  "certificates": [
-    {
-      "name": "Apprenti Marketing Apprenticeship (U.S. Department of Labor registered)",
-      "date": "2026-01-09",
-      "issuer": "Apprenti"
     }
   ],
   "awards": [

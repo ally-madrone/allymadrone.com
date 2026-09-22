@@ -2,10 +2,10 @@
 export const SITE_URL = 'https://allymadrone.com';
 export const NAME = 'Ally Madrone';
 export const ENTITY_STATEMENT =
-  'Ally Madrone is VP of Product at Deep Media, a content security infrastructure company.';
+  'Ally Madrone is a product leader who builds AI systems that find digital harms, currently VP of Product at Deep Media, a content security infrastructure company.';
 export const EMAIL = 'ally@allymadrone.com';
 export const HEADSHOT = '/images/ally-madrone.jpg';
-export const LAST_UPDATED = 'September 18, 2026';
+export const LAST_UPDATED = 'September 22, 2026';
 
 export const SAME_AS = [
   'https://www.linkedin.com/in/allymadrone',

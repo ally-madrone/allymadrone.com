@@ -153,6 +153,12 @@ a:hover {
   margin: 0 0 1.6rem;
 }
 
+.tagline {
+  font-size: 1.3rem;
+  line-height: 1.35;
+  margin: 0 0 0.5rem;
+}
+
 .lede {
   font-size: 1.22rem;
 }
